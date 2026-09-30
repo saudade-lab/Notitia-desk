@@ -1,12 +1,330 @@
 {
-  "updated": "2026-09-30T13:35:00+02:00",
-  "items": [
-    { "ticker": "TSLA", "societe": "Tesla", "date": "2026-10-21", "moment": "après la clôture", "confirme": false, "enjeu": "Marges auto, livraisons T3, robotaxi / IA." },
-    { "ticker": "MSFT", "societe": "Microsoft", "date": "2026-10-28", "moment": "après la clôture", "confirme": false, "enjeu": "Croissance Azure et capex IA." },
-    { "ticker": "GOOGL", "societe": "Alphabet", "date": "2026-10-28", "moment": "après la clôture", "confirme": false, "enjeu": "Google Cloud, pub Search face à l'IA, capex." },
-    { "ticker": "META", "societe": "Meta", "date": "2026-10-28", "moment": "après la clôture", "confirme": false, "enjeu": "Revenus pub et guidance capex IA." },
-    { "ticker": "AAPL", "societe": "Apple", "date": "2026-10-29", "moment": "après la clôture", "confirme": false, "enjeu": "Ventes iPhone du lancement de septembre, Chine, services." },
-    { "ticker": "AMZN", "societe": "Amazon", "date": "2026-10-29", "moment": "après la clôture", "confirme": false, "enjeu": "AWS et marges retail." },
-    { "ticker": "NVDA", "societe": "Nvidia", "date": "2026-11-18", "moment": "après la clôture", "confirme": false, "enjeu": "Data center, guidance : le résultat qui bouge le plus le NQ." }
-  ]
+ "updated": "2026-09-30T14:42:01+00:00",
+ "items": [
+  {
+   "ticker": "GOOGL",
+   "societe": "Alphabet",
+   "date": "2026-10-28",
+   "confirme": false,
+   "moment": "après la clôture",
+   "eps": "2,93 $",
+   "ca": "126,9 Md$",
+   "enjeu": "Google Cloud (+82 % au T2) peut-il justifier des capex relevés à 195–205 Md$ en 2026, avec une hausse « significative » annoncée pour 2027 ?",
+   "precedents": [
+    {
+     "trimestre": "T2 2026",
+     "bpa": "9,11 $ (dont ~99 Md$ de plus-values latentes)",
+     "bpa_attendu": "2,88 $",
+     "ca": "119,8 Md$",
+     "ca_attendu": "116,9 Md$",
+     "reaction": "-7,1 % le lendemain"
+    },
+    {
+     "trimestre": "T1 2026",
+     "bpa": "5,11 $ (plus-values incluses)",
+     "bpa_attendu": "2,64 $",
+     "ca": "109,9 Md$",
+     "ca_attendu": "107,0 Md$",
+     "reaction": "+10 % le lendemain"
+    },
+    {
+     "trimestre": "T4 2025",
+     "bpa": "2,82 $",
+     "bpa_attendu": "2,63 $",
+     "ca": "113,8 Md$",
+     "ca_attendu": "",
+     "reaction": ""
+    }
+   ],
+   "sante": {
+    "resume": "Chiffre d'affaires +24 %, Cloud à 24,8 Md$ (+82 %) et le Search accélère (+17 %). Mais 44,9 Md$ de capex sur le trimestre ont rendu le FCF négatif (-5,9 Md$) ; l'endettement augmente (dette LT 98 Md$).",
+    "croissance": "+24 % sur 1 an",
+    "marge": "marge opé. 34 %",
+    "tresorerie": "242,5 Md$ de cash et titres",
+    "valorisation": "PER fwd ~23"
+   },
+   "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/alphabet-q2-2026-earnings-revenue-203058727.html",
+    "https://www.fool.com/coverage/stock-market-today/2026/07/23/stock-market-today-july-23-alphabet-slides-7-after-announcing-2026-capex-of-roughly-usd200-billion/"
+   ]
+  },
+  {
+   "ticker": "META",
+   "societe": "Meta",
+   "date": "2026-10-28",
+   "confirme": false,
+   "moment": "après la clôture",
+   "eps": "6,77 $",
+   "ca": "",
+   "enjeu": "La pub reste solide (guidance T3 : 61–64 Md$). La question : la marge se stabilise-t-elle malgré des capex relevés à 130–145 Md$ ?",
+   "precedents": [
+    {
+     "trimestre": "T2 2026",
+     "bpa": "6,18 $",
+     "bpa_attendu": "7,17 $",
+     "ca": "60,8 Md$",
+     "ca_attendu": "60,2 Md$",
+     "reaction": "-8 % le lendemain"
+    },
+    {
+     "trimestre": "T1 2026",
+     "bpa": "7,31 $",
+     "bpa_attendu": "6,82 $",
+     "ca": "56,3 Md$",
+     "ca_attendu": "",
+     "reaction": "-8,6 % le lendemain"
+    },
+    {
+     "trimestre": "T4 2025",
+     "bpa": "8,88 $",
+     "bpa_attendu": "8,16 $",
+     "ca": "59,9 Md$",
+     "ca_attendu": "58,4 Md$",
+     "reaction": "jusqu'à +10 % en séance"
+    }
+   ],
+   "sante": {
+    "resume": "Chiffre d'affaires +28 %, mais BPA en baisse de 14 % (2,4 Md$ de frais juridiques, 1,2 Md$ d'indemnités pour 8 000 départs). La marge opé. tombe de 43 % à 31 % et le FCF devient quasi nul (0,8 Md$) sous le poids des capex IA.",
+    "croissance": "+28 % sur 1 an",
+    "marge": "marge opé. 31 %",
+    "tresorerie": "90,3 Md$ de cash (dette LT 83,7 Md$)",
+    "valorisation": "PER fwd ~22"
+   },
+   "sources": [
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx"
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "societe": "Microsoft",
+   "date": "2026-10-28",
+   "confirme": false,
+   "moment": "après la clôture",
+   "eps": "4,69 $",
+   "ca": "",
+   "enjeu": "Azure tiendra-t-il la croissance de ~45 % promise, et les capex (~175 Md$ sur l'année civile 2026) resteront-ils sous contrôle ?",
+   "precedents": [
+    {
+     "trimestre": "T4 FY2026",
+     "bpa": "4,74 $",
+     "bpa_attendu": "4,24 $",
+     "ca": "90,0 Md$",
+     "ca_attendu": "87,6 Md$",
+     "reaction": "~+15 % le lendemain"
+    },
+    {
+     "trimestre": "T3 FY2026",
+     "bpa": "4,27 $",
+     "bpa_attendu": "4,06 $",
+     "ca": "82,9 Md$",
+     "ca_attendu": "81,4 Md$",
+     "reaction": "-3,9 % le lendemain"
+    },
+    {
+     "trimestre": "T2 FY2026",
+     "bpa": "4,14 $",
+     "bpa_attendu": "3,92 $",
+     "ca": "81,3 Md$",
+     "ca_attendu": "80,3 Md$",
+     "reaction": "-10 % le lendemain"
+    }
+   ],
+   "sante": {
+    "resume": "Azure accélère à +43 %, le carnet de commandes commercial (RPO) atteint 678 Md$ (+84 %) et Copilot dépasse 30 M de licences payantes : plus forte hausse du titre en une séance depuis 2008. En contrepartie, 41 Md$ de capex sur le trimestre font baisser le FCF de 23 %.",
+    "croissance": "+18 % sur 1 an",
+    "marge": "marge opé. ~45 %",
+    "tresorerie": "FCF trimestriel 19,6 Md$ (flux opé. 55,4 Md$)",
+    "valorisation": "PER fwd ~25"
+   },
+   "sources": [
+    "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html",
+    "https://fortune.com/2026/07/30/microsoft-stock-biggest-one-day-gain-since-2008-480-billion-market-value-cloud-growth/"
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "societe": "Tesla",
+   "date": "2026-10-28",
+   "confirme": false,
+   "moment": "après la clôture",
+   "eps": "~0,37 $ (fourchette 0,22–0,61 $ ; Zacks 0,47 $)",
+   "ca": "27,7 Md$",
+   "enjeu": "Les marges vont-elles remonter après le 1,4 % du T2, et le cash-flow redevenir positif malgré plus de 25 Md$ de capex (IA, Cybercab, robotaxi) ?",
+   "precedents": [
+    {
+     "trimestre": "T2 2026",
+     "bpa": "0,33 $",
+     "bpa_attendu": "~0,51 $",
+     "ca": "28,2 Md$",
+     "ca_attendu": "25,7 Md$",
+     "reaction": "-12,7 % le lendemain"
+    },
+    {
+     "trimestre": "T1 2026",
+     "bpa": "0,41 $",
+     "bpa_attendu": "0,35 $",
+     "ca": "22,4 Md$",
+     "ca_attendu": "22,2 Md$",
+     "reaction": "-3,6 % le lendemain"
+    },
+    {
+     "trimestre": "T4 2025",
+     "bpa": "0,50 $",
+     "bpa_attendu": "0,45 $",
+     "ca": "",
+     "ca_attendu": "",
+     "reaction": ""
+    }
+   ],
+   "sante": {
+    "resume": "Chiffre d'affaires record (+26 %) mais rentabilité effondrée : marge opé. 1,4 % et FCF négatif (-1,1 Md$) à cause des capex IA/robotaxi (+142 % sur un an). Le récit repose sur l'autonomie : production du Cybercab lancée au Texas, robotaxi dans 7 métropoles.",
+    "croissance": "+26 % sur 1 an",
+    "marge": "marge opé. 1,4 %",
+    "tresorerie": "43,5 Md$ de cash et placements",
+    "valorisation": "PER fwd ~159"
+   },
+   "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/tesla-q2-2026-earnings-revenue-203906234.html",
+    "https://www.tikr.com/blog/tesla-q1-2026-earnings-beat-so-why-did-the-stock-fall-3-56"
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "societe": "Apple",
+   "date": "2026-10-29",
+   "confirme": false,
+   "moment": "après la clôture",
+   "eps": "1,98 $",
+   "ca": "",
+   "enjeu": "Apple a guidé seulement +9 à 11 % de croissance pour le trimestre de septembre, freiné par la flambée du coût de la mémoire. À surveiller : les marges et le premier trimestre complet du nouveau CEO après Tim Cook.",
+   "precedents": [
+    {
+     "trimestre": "T3 FY2026",
+     "bpa": "2,02 $",
+     "bpa_attendu": "1,89 $",
+     "ca": "109,4 Md$",
+     "ca_attendu": "109,0 Md$",
+     "reaction": "~-6 % le lendemain"
+    },
+    {
+     "trimestre": "T2 FY2026",
+     "bpa": "2,01 $",
+     "bpa_attendu": "1,95 $",
+     "ca": "111,2 Md$",
+     "ca_attendu": "109,7 Md$",
+     "reaction": "+3,2 % le lendemain"
+    },
+    {
+     "trimestre": "T1 FY2026",
+     "bpa": "2,84 $",
+     "bpa_attendu": "2,67 $",
+     "ca": "143,8 Md$",
+     "ca_attendu": "",
+     "reaction": ""
+    }
+   ],
+   "sante": {
+    "resume": "Meilleur trimestre de juin de son histoire (iPhone +22 % à 54,3 Md$), mais Services et Chine sous les attentes, et 0,11 $ de BPA viennent de remboursements de droits de douane. Le coût de la mémoire pèse sur les perspectives.",
+    "croissance": "+16 % sur 1 an",
+    "marge": "marge brute 50,1 %",
+    "tresorerie": "",
+    "valorisation": "PER fwd ~35"
+   },
+   "sources": [
+    "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/"
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "societe": "Amazon",
+   "date": "2026-10-29",
+   "confirme": false,
+   "moment": "après la clôture",
+   "eps": "2,01 $",
+   "ca": "",
+   "enjeu": "AWS peut-il continuer d'accélérer (+37 % au T2) pendant que les capex montent à ~220 Md$ ? Guidance T3 : CA 197–202 Md$, résultat opé. 22,5–26,5 Md$.",
+   "precedents": [
+    {
+     "trimestre": "T2 2026",
+     "bpa": "1,88 $ ajusté (5,75 $ publié, gain Anthropic inclus)",
+     "bpa_attendu": "1,83 $",
+     "ca": "200,6 Md$",
+     "ca_attendu": "196,6 Md$",
+     "reaction": "+15,3 % le lendemain"
+    },
+    {
+     "trimestre": "T1 2026",
+     "bpa": "2,78 $ (gains Anthropic inclus)",
+     "bpa_attendu": "1,64 $",
+     "ca": "181,5 Md$",
+     "ca_attendu": "177,3 Md$",
+     "reaction": "+0,8 % le lendemain"
+    },
+    {
+     "trimestre": "T4 2025",
+     "bpa": "1,95 $",
+     "bpa_attendu": "1,97 $",
+     "ca": "213,4 Md$",
+     "ca_attendu": "211,4 Md$",
+     "reaction": "-8 % en pré-marché"
+    }
+   ],
+   "sante": {
+    "resume": "AWS à 42,2 Md$ (+37 %), sa plus forte croissance depuis 18 trimestres, et la marge opé. gagne 230 pb. En face, les capex IA rendent le FCF sur 12 mois négatif.",
+    "croissance": "+20 % sur 1 an",
+    "marge": "marge opé. 13,7 %",
+    "tresorerie": "FCF sur 12 mois : -7,6 Md$",
+    "valorisation": "PER fwd ~24"
+   },
+   "sources": [
+    "https://www.fool.com/investing/2026/08/07/amzn-stock-earnings-cloud-ai/"
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "societe": "Nvidia",
+   "date": "2026-11-18",
+   "confirme": false,
+   "moment": "après la clôture",
+   "eps": "2,47 $",
+   "ca": "",
+   "enjeu": "Nvidia a guidé 108 Md$ (±2 %) pour le trimestre contre ~104 Md$ attendus, avec une marge brute de 74 % : le marché regardera la montée en puissance de Vera Rubin et le carnet 2027. Le résultat qui bouge le plus le NQ.",
+   "precedents": [
+    {
+     "trimestre": "T2 FY2027",
+     "bpa": "2,22 $",
+     "bpa_attendu": "2,09 $",
+     "ca": "96,2 Md$",
+     "ca_attendu": "92,1 Md$",
+     "reaction": "+8,7 % le lendemain"
+    },
+    {
+     "trimestre": "T1 FY2027",
+     "bpa": "1,87 $",
+     "bpa_attendu": "1,78 $",
+     "ca": "81,6 Md$",
+     "ca_attendu": "79,0 Md$",
+     "reaction": "-1,8 % le lendemain"
+    },
+    {
+     "trimestre": "T4 FY2026",
+     "bpa": "1,62 $",
+     "bpa_attendu": "1,54 $",
+     "ca": "68,1 Md$",
+     "ca_attendu": "",
+     "reaction": "-5,5 % le lendemain"
+    }
+   ],
+   "sante": {
+    "resume": "Chiffre d'affaires doublé (+106 %) porté par le Data Center (89 Md$, +117 %), marge brute 75 %. Jensen Huang table sur ~70 % de croissance pour l'exercice 2028, bien au-dessus du consensus.",
+    "croissance": "+106 % sur 1 an",
+    "marge": "marge opé. ~66 % (brute 75 %)",
+    "tresorerie": "99,3 Md$ de cash et titres",
+    "valorisation": "PER fwd ~25"
+   },
+   "sources": [
+    "https://www.globenewswire.com/news-release/2026/08/26/3351702/0/en/nvidia-announces-financial-results-for-second-quarter-fiscal-2027.html"
+   ]
+  }
+ ]
 }
