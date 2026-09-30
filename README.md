@@ -5,8 +5,8 @@ Desk de news pour traders **Nasdaq (NQ) et Or (GC)** : fil de news notées de 1 
 ## ⬇️ Télécharger
 
 - **🪟 Windows : [Télécharger MRKT.ia pour Windows](https://github.com/saudade-lab/bloomberk-terminal-/releases/latest/download/MRKT-ia.zip)**
-- **🍎 Mac puce Apple (M1, M2, M3, M4…) : [Télécharger pour Mac Apple](https://github.com/saudade-lab/bloomberk-terminal-/releases/latest/download/MRKT-ia-mac-arm64.zip)**
-- **🍎 Mac Intel : [Télécharger pour Mac Intel](https://github.com/saudade-lab/bloomberk-terminal-/releases/latest/download/MRKT-ia-mac-intel.zip)**
+- **🍎 Mac puce Apple (M1, M2, M3, M4…) : [Télécharger pour Mac Apple](https://github.com/saudade-lab/bloomberk-terminal-/releases/latest/download/MRKT-mac-arm64.zip)**
+- **🍎 Mac Intel : [Télécharger pour Mac Intel](https://github.com/saudade-lab/bloomberk-terminal-/releases/latest/download/MRKT-mac-intel.zip)**
 
 Ton Mac a quelle puce ? Menu  › *À propos de ce Mac*.
 
