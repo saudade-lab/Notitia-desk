@@ -30,3 +30,14 @@ Sur Mac, les prix viennent de Yahoo Finance (différés d'environ 10 min), Ninja
 ## Mises à jour
 
 Automatiques : quand une nouvelle version sort, un bandeau apparaît dans le desk. Un clic sur **Installer** et c'est fait, tes réglages sont gardés.
+
+## Sur ton téléphone
+
+Le desk tourne sur ton PC ; ton téléphone l'affiche dans son navigateur.
+1. Dans le `appsettings.json` de MRKT, mets `"DashboardLan": true`, lance **Autoriser-reseau.bat** (une fois, clic droit → Exécuter en tant qu'administrateur), puis relance MRKT.
+2. **À la maison (même wifi)** : ouvre sur le tel l'adresse affichée en bas du dashboard (« Sur ton tel : même wifi … »).
+3. **Partout (4G, dehors)** : installe [Tailscale](https://tailscale.com/download) (gratuit) sur le PC et sur le tel, connecte-les au même compte, relance MRKT et ouvre l'adresse « partout (Tailscale) ».
+4. Ajoute la page à l'écran d'accueil du tel pour l'ouvrir comme une appli.
+
+---
+© 2026 Alexandre (saudade-lab) — MRKT.ia, tous droits réservés. Usage personnel uniquement : ne pas revendre, redistribuer ou modifier sans accord. Ce n'est pas un conseil financier.
