@@ -1,0 +1,27 @@
+{
+ "updated": "2026-09-30T08:15:00Z",
+ "recaps": [
+  {
+   "id": "test-2026-09-30",
+   "slot": "test",
+   "at": "2026-09-30T08:15:00Z",
+   "titre": "Boîte aux lettres branchée ✅",
+   "resume": "Ceci est un récap de test : si tu le vois dans MRKT, la liaison GitHub fonctionne. Les vrais récaps arriveront à 8h et 14h en semaine.",
+   "nq": {
+    "biais": "neutre",
+    "points": [
+     "Test"
+    ]
+   },
+   "gc": {
+    "biais": "neutre",
+    "points": [
+     "Test"
+    ]
+   },
+   "agenda": [],
+   "earnings": [],
+   "risques": []
+  }
+ ]
+}
