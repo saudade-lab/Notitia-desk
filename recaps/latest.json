@@ -1,27 +1,115 @@
 {
- "updated": "2026-09-30T08:15:00Z",
- "recaps": [
-  {
-   "id": "test-2026-09-30",
-   "slot": "test",
-   "at": "2026-09-30T08:15:00Z",
-   "titre": "Boîte aux lettres branchée ✅",
-   "resume": "Ceci est un récap de test : si tu le vois dans MRKT, la liaison GitHub fonctionne. Les vrais récaps arriveront à 8h et 14h en semaine.",
-   "nq": {
-    "biais": "neutre",
-    "points": [
-     "Test"
-    ]
-   },
-   "gc": {
-    "biais": "neutre",
-    "points": [
-     "Test"
-    ]
-   },
-   "agenda": [],
-   "earnings": [],
-   "risques": []
-  }
- ]
+  "updated": "2026-09-30T11:55:49Z",
+  "recaps": [
+    {
+      "id": "2026-09-30-14",
+      "slot": "14h",
+      "at": "2026-09-30T11:55:49Z",
+      "titre": "PCE à 14h30, Micron ce soir, taux au plafond",
+      "resume": "Pré-marché calme avant le PCE : NQ -0,17 % vers 30 562, ES -0,07 %, alors que le 10 ans US reste vers 5,26-5,3 % (plus haut depuis 2007) et le 30 ans au-dessus de 5,6 %. Williams (NY Fed) a calmé le jeu en disant que la Fed pourrait sauter une hausse en octobre : le marché price environ 50 % de hausse ce mois-ci. L'or rebondit (+0,8 % vers 4 212 $) après avoir touché le support des 4 100 $, plus bas depuis début août. Le pétrole reste tendu (WTI ~90 $, Brent ~103 $) après le démenti de Trump sur un allègement des sanctions contre l'Iran (« I offered them NOTHING ») et des projectiles sur des navires dans le détroit d'Ormuz. En Europe, le STOXX 600 prend +0,4 % mais termine son premier mois de baisse en six mois ; l'inflation régionale allemande accélère (national attendu 3,2 %). Ce soir, Micron publie après la clôture : gros catalyseur IA/semis pour le NQ.",
+      "nq": {
+        "biais": "neutre",
+        "points": [
+          "Futures légèrement rouges (-0,17 %) : attente du PCE, pas de tendance posée",
+          "Taux longs US aux plus hauts depuis 2002-2007 : pression sur les valorisations tech",
+          "Williams ouvre la porte à une pause en octobre : soutien si le PCE ne surprend pas à la hausse",
+          "Micron ce soir (CA attendu ~51,5 Md$, titre +279 % YTD) : risque de gap sur les semis dans les deux sens"
+        ]
+      },
+      "gc": {
+        "biais": "neutre",
+        "points": [
+          "Rebond de +0,8 % depuis le support des 4 100 $ (plus bas depuis le 5 août)",
+          "Résistances citées : 4 227 $ puis 200 EMA vers 4 307 $",
+          "Vent contraire : Fed en mode hausse (quasi 4 hausses pricées sur 12 mois) et dollar fort",
+          "Soutien : tension Iran / Ormuz et pétrole au-dessus de 100 $ (Brent)"
+        ]
+      },
+      "agenda": [
+        {
+          "heure": "14:00 (Paris)",
+          "evenement": "Allemagne – IPC flash septembre",
+          "enjeu": "Attendu 3,2 % (HICP) vs 2,9 %. Les Länder sont tous en hausse : un chiffre chaud pousse les taux européens et le dollar indirectement."
+        },
+        {
+          "heure": "14:15 (Paris)",
+          "evenement": "USD – ADP emploi privé (sept.)",
+          "enjeu": "Prévu ~70-73K / précédent 38K. Au-dessus : taux et dollar en hausse, négatif NQ et or. En dessous : pause d'octobre plus crédible, positif NQ et or."
+        },
+        {
+          "heure": "14:30 (Paris)",
+          "evenement": "USD – PCE août + PIB T2 final + dépenses des ménages",
+          "enjeu": "Core PCE prévu +0,3 % m/m (préc. 0,2 %), 3,3 % a/a (inchangé) ; PCE total 3,7 % a/a ; PIB 1,5 % vs 2,1 % ; dépenses +0,8 % vs 0,2 %. Core ≥ 0,4 % : hausse d'octobre repricée, taux ↑, NQ et or sous pression. Core ≤ 0,2 % : détente des taux, rebond NQ, or vers 4 227 $."
+        },
+        {
+          "heure": "15:30 (Paris)",
+          "evenement": "Ouverture Wall Street",
+          "enjeu": "Dernière séance du mois et du trimestre : flux de rebalancement possibles en fin de séance."
+        },
+        {
+          "heure": "15:45 (Paris)",
+          "evenement": "USD – Chicago PMI (sept.)",
+          "enjeu": "Prévu 51,2 / précédent 47,1. Un retour au-dessus de 50 confirme la résilience (taux ↑) ; un raté renforce le camp de la pause."
+        },
+        {
+          "heure": "16:30 (Paris)",
+          "evenement": "USD – Stocks de brut EIA",
+          "enjeu": "Précédent +2,97 M barils. Avec le pétrole ~90 $, une baisse des stocks alimente l'inflation énergie : négatif NQ, ambigu pour l'or."
+        },
+        {
+          "heure": "~19:30 (Paris, à confirmer)",
+          "evenement": "Fed – Barkin (Richmond)",
+          "enjeu": "Ton sur la hausse d'octobre après le PCE."
+        },
+        {
+          "heure": "~21:25 (Paris, à confirmer)",
+          "evenement": "Fed – Gouverneure Cook",
+          "enjeu": "Voix du Board : un ton dovish confirmerait la ligne Williams."
+        },
+        {
+          "heure": "après 22:00 (Paris)",
+          "evenement": "Micron – résultats T4 FY26",
+          "enjeu": "Voir earnings : mouvement after-hours sur NQ."
+        },
+        {
+          "heure": "~23:10 et ~00:00 (Paris, à confirmer)",
+          "evenement": "Fed – Goolsbee puis Kashkari",
+          "enjeu": "Derniers signaux avant le ISM demain et le NFP vendredi."
+        }
+      ],
+      "earnings": [
+        {
+          "societe": "Micron (MU)",
+          "quand": "après clôture",
+          "enjeu": "Consensus BPA ~31,83 $ et CA ~51,5 Md$ (+355 % a/a), DRAM ~38,2 Md$. Titre +279 % YTD : la barre est très haute, la guidance HBM/IA fera bouger les semis et le NQ."
+        },
+        {
+          "societe": "Jabil (JBL)",
+          "quand": "avant ouverture",
+          "enjeu": "Sous-traitant électronique exposé aux serveurs IA : indice secondaire sur la demande data centers."
+        },
+        {
+          "societe": "Conagra (CAG) / FactSet (FDS)",
+          "quand": "avant ouverture",
+          "enjeu": "Hors NQ, impact marginal."
+        }
+      ],
+      "risques": [
+        "PCE chaud + ADP fort = hausse d'octobre repricée vers la certitude : taux longs à nouveau en tension et cassure possible des 4 100 $ sur l'or",
+        "Escalade Iran / Ormuz : pétrole en flèche, risk-off sur NQ, or soutenu comme refuge malgré le dollar",
+        "Micron décevant sur la guidance avec un titre déjà +279 % YTD : gap baissier des semis dans la nuit"
+      ],
+      "sources": [
+        "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-30-dow-sp-500-nasdaq-080339262.html",
+        "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-30-2026",
+        "https://www.investing.com/news/stock-market-news/adp-jobs-data-gdp-core-pce-and-oil-inventories-due-wednesday-93CH-4923296",
+        "https://www.aol.com/articles/morning-bid-october-doubts-103730000.html",
+        "https://www.tradingpedia.com/2026/09/30/gold-slips-as-fed-rate-outlook-safe-haven-usd-support/",
+        "https://www.realitytea.com/2026/09/30/donald-trump-iran-war-sanction-decision-oil-price-rise/",
+        "https://finance.yahoo.com/technology/article/micron-to-report-q4-earnings-as-memory-boom-powers-on-153230577.html",
+        "https://www.aol.com/articles/european-shares-set-first-monthly-073210000.html",
+        "https://www.investing.com/news/economy-news/inflation-up-in-five-german-states-in-september-pointing-to-national-rise-4924317"
+      ]
+    }
+  ]
 }
