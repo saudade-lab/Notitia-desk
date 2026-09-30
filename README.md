@@ -1,4 +1,4 @@
-# MRKT.ia · Desk
+# BloomBerk · Desk
 
 Desk de news pour traders **Nasdaq (NQ) et Or (GC)** : fil de news notées de 1 à 5 avec leur impact sur le NQ et l'or, calendrier éco, zone rouge avant les gros chiffres US, earnings des gros poids du Nasdaq, récaps de 8h / 14h / dimanche, notifs sur téléphone. Gratuit, sans compte.
 
