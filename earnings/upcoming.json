@@ -1,0 +1,12 @@
+{
+  "updated": "2026-09-30T13:35:00+02:00",
+  "items": [
+    { "ticker": "TSLA", "societe": "Tesla", "date": "2026-10-21", "moment": "après la clôture", "confirme": false, "enjeu": "Marges auto, livraisons T3, robotaxi / IA." },
+    { "ticker": "MSFT", "societe": "Microsoft", "date": "2026-10-28", "moment": "après la clôture", "confirme": false, "enjeu": "Croissance Azure et capex IA." },
+    { "ticker": "GOOGL", "societe": "Alphabet", "date": "2026-10-28", "moment": "après la clôture", "confirme": false, "enjeu": "Google Cloud, pub Search face à l'IA, capex." },
+    { "ticker": "META", "societe": "Meta", "date": "2026-10-28", "moment": "après la clôture", "confirme": false, "enjeu": "Revenus pub et guidance capex IA." },
+    { "ticker": "AAPL", "societe": "Apple", "date": "2026-10-29", "moment": "après la clôture", "confirme": false, "enjeu": "Ventes iPhone du lancement de septembre, Chine, services." },
+    { "ticker": "AMZN", "societe": "Amazon", "date": "2026-10-29", "moment": "après la clôture", "confirme": false, "enjeu": "AWS et marges retail." },
+    { "ticker": "NVDA", "societe": "Nvidia", "date": "2026-11-18", "moment": "après la clôture", "confirme": false, "enjeu": "Data center, guidance : le résultat qui bouge le plus le NQ." }
+  ]
+}
