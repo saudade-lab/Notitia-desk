@@ -1,15 +1,67 @@
 {
- "updated": "2026-09-30T14:42:01+00:00",
+ "updated": "2026-10-01T06:14:18Z",
  "items": [
   {
+   "ticker": "INTC",
+   "societe": "Intel",
+   "poids": 2.49,
+   "date": "2026-10-22",
+   "confirme": true,
+   "moment": "après la clôture",
+   "eps": "0,39 $",
+   "ca": "16,4 Md$",
+   "enjeu": "Intel guide un CA T3 de 15,8 à 16,8 Md$, un BPA non-GAAP de 0,38 $ et une marge brute d'environ 42 %. Le marché attend la confirmation du redressement, porté par un data center à +59 % sur un an au T2, et de la stratégie Foundry.",
+   "dernier": "+12 à 13 % après-Bourse le 23/07, gain ramené sous 4 % le soir même",
+   "precedents": [
+    {
+     "trimestre": "T2 2026",
+     "bpa": "0,42 $",
+     "bpa_attendu": "0,21-0,22 $",
+     "ca": "16,13 Md$",
+     "ca_attendu": "~14,4 Md$",
+     "reaction": "+12 à 13 % après-Bourse, ramené sous 4 % en soirée"
+    },
+    {
+     "trimestre": "T1 2026",
+     "bpa": "",
+     "bpa_attendu": "",
+     "ca": "",
+     "ca_attendu": "",
+     "reaction": "+23,6 % le lendemain"
+    },
+    {
+     "trimestre": "T4 2025",
+     "bpa": "",
+     "bpa_attendu": "",
+     "ca": "",
+     "ca_attendu": "",
+     "reaction": ""
+    }
+   ],
+   "sante": {
+    "resume": "Intel a connu au T2 2026 sa plus forte croissance depuis plus de 15 ans et un résultat opérationnel redevenu positif (1,80 Md$). Il a pourtant publié une perte nette GAAP de 11,03 Md$, due à des charges hors exploitation.",
+    "croissance": "+25,4 % sur 1 an (T2 2026)",
+    "marge": "marge brute GAAP 40,4 % (T2 2026)",
+    "tresorerie": "",
+    "valorisation": ""
+   },
+   "sources": [
+    "https://www.marketbeat.com/earnings/reports/2026-10-22-intel-co-stock/",
+    "https://www.indmoney.com/blog/us-stocks/intel-q2-earnings-results-intc-stock-reaction",
+    "https://www.earningslens.ai/stock/intc/preview/2026-Q3"
+   ]
+  },
+  {
    "ticker": "GOOGL",
-   "societe": "Alphabet",
+   "societe": "Alphabet (GOOGL + GOOG)",
+   "poids": 6.0,
    "date": "2026-10-28",
    "confirme": false,
    "moment": "après la clôture",
    "eps": "2,93 $",
    "ca": "126,9 Md$",
    "enjeu": "Google Cloud (+82 % au T2) peut-il justifier des capex relevés à 195–205 Md$ en 2026, avec une hausse « significative » annoncée pour 2027 ?",
+   "dernier": "-7,1 % le lendemain",
    "precedents": [
     {
      "trimestre": "T2 2026",
@@ -49,60 +101,16 @@
    ]
   },
   {
-   "ticker": "META",
-   "societe": "Meta",
-   "date": "2026-10-28",
-   "confirme": false,
-   "moment": "après la clôture",
-   "eps": "6,77 $",
-   "ca": "",
-   "enjeu": "La pub reste solide (guidance T3 : 61–64 Md$). La question : la marge se stabilise-t-elle malgré des capex relevés à 130–145 Md$ ?",
-   "precedents": [
-    {
-     "trimestre": "T2 2026",
-     "bpa": "6,18 $",
-     "bpa_attendu": "7,17 $",
-     "ca": "60,8 Md$",
-     "ca_attendu": "60,2 Md$",
-     "reaction": "-8 % le lendemain"
-    },
-    {
-     "trimestre": "T1 2026",
-     "bpa": "7,31 $",
-     "bpa_attendu": "6,82 $",
-     "ca": "56,3 Md$",
-     "ca_attendu": "",
-     "reaction": "-8,6 % le lendemain"
-    },
-    {
-     "trimestre": "T4 2025",
-     "bpa": "8,88 $",
-     "bpa_attendu": "8,16 $",
-     "ca": "59,9 Md$",
-     "ca_attendu": "58,4 Md$",
-     "reaction": "jusqu'à +10 % en séance"
-    }
-   ],
-   "sante": {
-    "resume": "Chiffre d'affaires +28 %, mais BPA en baisse de 14 % (2,4 Md$ de frais juridiques, 1,2 Md$ d'indemnités pour 8 000 départs). La marge opé. tombe de 43 % à 31 % et le FCF devient quasi nul (0,8 Md$) sous le poids des capex IA.",
-    "croissance": "+28 % sur 1 an",
-    "marge": "marge opé. 31 %",
-    "tresorerie": "90,3 Md$ de cash (dette LT 83,7 Md$)",
-    "valorisation": "PER fwd ~22"
-   },
-   "sources": [
-    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx"
-   ]
-  },
-  {
    "ticker": "MSFT",
    "societe": "Microsoft",
+   "poids": 5.9,
    "date": "2026-10-28",
    "confirme": false,
    "moment": "après la clôture",
    "eps": "4,69 $",
    "ca": "",
    "enjeu": "Azure tiendra-t-il la croissance de ~45 % promise, et les capex (~175 Md$ sur l'année civile 2026) resteront-ils sous contrôle ?",
+   "dernier": "~+15 % le lendemain",
    "precedents": [
     {
      "trimestre": "T4 FY2026",
@@ -142,14 +150,64 @@
    ]
   },
   {
+   "ticker": "META",
+   "societe": "Meta",
+   "poids": 3.4,
+   "date": "2026-10-28",
+   "confirme": false,
+   "moment": "après la clôture",
+   "eps": "6,77 $",
+   "ca": "",
+   "enjeu": "La pub reste solide (guidance T3 : 61–64 Md$). La question : la marge se stabilise-t-elle malgré des capex relevés à 130–145 Md$ ?",
+   "dernier": "-8 % le lendemain",
+   "precedents": [
+    {
+     "trimestre": "T2 2026",
+     "bpa": "6,18 $",
+     "bpa_attendu": "7,17 $",
+     "ca": "60,8 Md$",
+     "ca_attendu": "60,2 Md$",
+     "reaction": "-8 % le lendemain"
+    },
+    {
+     "trimestre": "T1 2026",
+     "bpa": "7,31 $",
+     "bpa_attendu": "6,82 $",
+     "ca": "56,3 Md$",
+     "ca_attendu": "",
+     "reaction": "-8,6 % le lendemain"
+    },
+    {
+     "trimestre": "T4 2025",
+     "bpa": "8,88 $",
+     "bpa_attendu": "8,16 $",
+     "ca": "59,9 Md$",
+     "ca_attendu": "58,4 Md$",
+     "reaction": "jusqu'à +10 % en séance"
+    }
+   ],
+   "sante": {
+    "resume": "Chiffre d'affaires +28 %, mais BPA en baisse de 14 % (2,4 Md$ de frais juridiques, 1,2 Md$ d'indemnités pour 8 000 départs). La marge opé. tombe de 43 % à 31 % et le FCF devient quasi nul (0,8 Md$) sous le poids des capex IA.",
+    "croissance": "+28 % sur 1 an",
+    "marge": "marge opé. 31 %",
+    "tresorerie": "90,3 Md$ de cash (dette LT 83,7 Md$)",
+    "valorisation": "PER fwd ~22"
+   },
+   "sources": [
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx"
+   ]
+  },
+  {
    "ticker": "TSLA",
    "societe": "Tesla",
+   "poids": 2.8,
    "date": "2026-10-28",
    "confirme": false,
    "moment": "après la clôture",
    "eps": "~0,37 $ (fourchette 0,22–0,61 $ ; Zacks 0,47 $)",
    "ca": "27,7 Md$",
    "enjeu": "Les marges vont-elles remonter après le 1,4 % du T2, et le cash-flow redevenir positif malgré plus de 25 Md$ de capex (IA, Cybercab, robotaxi) ?",
+   "dernier": "-12,7 % le lendemain",
    "precedents": [
     {
      "trimestre": "T2 2026",
@@ -191,12 +249,14 @@
   {
    "ticker": "AAPL",
    "societe": "Apple",
+   "poids": 7.6,
    "date": "2026-10-29",
    "confirme": false,
    "moment": "après la clôture",
    "eps": "1,98 $",
    "ca": "",
    "enjeu": "Apple a guidé seulement +9 à 11 % de croissance pour le trimestre de septembre, freiné par la flambée du coût de la mémoire. À surveiller : les marges et le premier trimestre complet du nouveau CEO après Tim Cook.",
+   "dernier": "~-6 % le lendemain",
    "precedents": [
     {
      "trimestre": "T3 FY2026",
@@ -237,12 +297,14 @@
   {
    "ticker": "AMZN",
    "societe": "Amazon",
+   "poids": 4.1,
    "date": "2026-10-29",
    "confirme": false,
    "moment": "après la clôture",
    "eps": "2,01 $",
    "ca": "",
    "enjeu": "AWS peut-il continuer d'accélérer (+37 % au T2) pendant que les capex montent à ~220 Md$ ? Guidance T3 : CA 197–202 Md$, résultat opé. 22,5–26,5 Md$.",
+   "dernier": "+15,3 % le lendemain",
    "precedents": [
     {
      "trimestre": "T2 2026",
@@ -281,14 +343,64 @@
    ]
   },
   {
+   "ticker": "AMD",
+   "societe": "Advanced Micro Devices",
+   "poids": 4.3,
+   "date": "2026-11-03",
+   "confirme": false,
+   "moment": "après la clôture",
+   "eps": "",
+   "ca": "12,4 Md$",
+   "enjeu": "La guidance de CA T3 (12,7 à 13,3 Md$) dépasse le consensus de 12,4 Md$. Le marché attend une accélération du data center et des GPU IA. La valorisation est exigeante.",
+   "dernier": "",
+   "precedents": [
+    {
+     "trimestre": "T2 2026",
+     "bpa": "1,66 $",
+     "bpa_attendu": "1,62 $",
+     "ca": "11,54 Md$",
+     "ca_attendu": "11,31 Md$",
+     "reaction": ""
+    },
+    {
+     "trimestre": "T1 2026",
+     "bpa": "1,37 $",
+     "bpa_attendu": "1,29 $",
+     "ca": "10,25 Md$",
+     "ca_attendu": "9,90 Md$",
+     "reaction": ""
+    },
+    {
+     "trimestre": "T4 2025",
+     "bpa": "1,53 $",
+     "bpa_attendu": "1,32 $",
+     "ca": "10,27 Md$",
+     "ca_attendu": "9,65 Md$",
+     "reaction": ""
+    }
+   ],
+   "sante": {
+    "resume": "AMD a battu le consensus de BPA et de CA sur les 3 derniers trimestres. Le consensus anticipe un BPA qui passerait de 6,43 $ (2026) à 13,57 $ (2027), soit +111 %.",
+    "croissance": "",
+    "marge": "",
+    "tresorerie": "",
+    "valorisation": "PER fwd ~95"
+   },
+   "sources": [
+    "https://www.marketbeat.com/stocks/NASDAQ/AMD/earnings/"
+   ]
+  },
+  {
    "ticker": "NVDA",
    "societe": "Nvidia",
+   "poids": 8.7,
    "date": "2026-11-18",
    "confirme": false,
    "moment": "après la clôture",
    "eps": "2,47 $",
    "ca": "",
    "enjeu": "Nvidia a guidé 108 Md$ (±2 %) pour le trimestre contre ~104 Md$ attendus, avec une marge brute de 74 % : le marché regardera la montée en puissance de Vera Rubin et le carnet 2027. Le résultat qui bouge le plus le NQ.",
+   "dernier": "+8,7 % le lendemain",
    "precedents": [
     {
      "trimestre": "T2 FY2027",
@@ -324,6 +436,154 @@
    },
    "sources": [
     "https://www.globenewswire.com/news-release/2026/08/26/3351702/0/en/nvidia-announces-financial-results-for-second-quarter-fiscal-2027.html"
+   ]
+  },
+  {
+   "ticker": "WMT",
+   "societe": "Walmart",
+   "poids": 2.24,
+   "date": "2026-11-19",
+   "confirme": false,
+   "moment": "avant ouverture",
+   "eps": "0,72 $",
+   "ca": "188,2 Md$",
+   "enjeu": "La guidance annuelle FY2027 (BPA 2,80 à 2,87 $ ; CA 734,7 à 741,7 Md$) est inférieure au consensus (2,89 $ ; 751,8 Md$). Le marché surveillera une éventuelle révision et la santé du consommateur américain.",
+   "dernier": "",
+   "precedents": [
+    {
+     "trimestre": "T2 FY2027",
+     "bpa": "0,81 $",
+     "bpa_attendu": "0,74 $",
+     "ca": "187,94 Md$",
+     "ca_attendu": "186,64 Md$",
+     "reaction": ""
+    },
+    {
+     "trimestre": "T1 FY2027",
+     "bpa": "0,66 $",
+     "bpa_attendu": "0,66 $",
+     "ca": "177,75 Md$",
+     "ca_attendu": "174,84 Md$",
+     "reaction": ""
+    },
+    {
+     "trimestre": "T4 FY2026",
+     "bpa": "0,74 $",
+     "bpa_attendu": "0,73 $",
+     "ca": "190,66 Md$",
+     "ca_attendu": "188,37 Md$",
+     "reaction": ""
+    }
+   ],
+   "sante": {
+    "resume": "Walmart a battu le consensus de CA sur les 3 derniers trimestres et égalé ou battu celui du BPA, mais sa guidance annuelle reste prudente. Le consensus anticipe une croissance du BPA d'environ 12 % (de 2,87 $ à 3,22 $).",
+    "croissance": "",
+    "marge": "",
+    "tresorerie": "",
+    "valorisation": "PER fwd ~37"
+   },
+   "sources": [
+    "https://www.marketbeat.com/stocks/NASDAQ/WMT/earnings/",
+    "https://www.marketbeat.com/earnings/reports/2026-8-20-walmart-inc-stock/"
+   ]
+  },
+  {
+   "ticker": "AVGO",
+   "societe": "Broadcom",
+   "poids": 2.6,
+   "date": "2026-12-09",
+   "confirme": false,
+   "moment": "après la clôture",
+   "eps": "",
+   "ca": "35 Md$",
+   "enjeu": "Broadcom guide un CA T4 FY2026 d'environ 34,8 Md$, en ligne avec le consensus (35 Md$). Le marché surveillera les puces IA sur mesure (ASIC) et la visibilité sur 2027.",
+   "dernier": "",
+   "precedents": [
+    {
+     "trimestre": "T3 FY2026",
+     "bpa": "3,32 $",
+     "bpa_attendu": "3,22 $",
+     "ca": "29,59 Md$",
+     "ca_attendu": "29,24 Md$",
+     "reaction": ""
+    },
+    {
+     "trimestre": "T2 FY2026",
+     "bpa": "2,44 $",
+     "bpa_attendu": "2,40 $",
+     "ca": "22,19 Md$",
+     "ca_attendu": "22,13 Md$",
+     "reaction": ""
+    },
+    {
+     "trimestre": "T1 FY2026",
+     "bpa": "2,05 $",
+     "bpa_attendu": "2,03 $",
+     "ca": "19,31 Md$",
+     "ca_attendu": "19,10 Md$",
+     "reaction": ""
+    }
+   ],
+   "sante": {
+    "resume": "Le CA trimestriel est passé de 19,3 à 29,6 Md$ en deux trimestres, avec des dépassements de consensus réguliers mais modestes. Le consensus anticipe un BPA en hausse de 10,36 $ à 17,46 $ (+68,5 %).",
+    "croissance": "",
+    "marge": "",
+    "tresorerie": "",
+    "valorisation": "PER fwd ~34"
+   },
+   "sources": [
+    "https://www.marketbeat.com/stocks/NASDAQ/AVGO/earnings",
+    "https://www.marketbeat.com/earnings/reports/2026-9-2-broadcom-inc-stock/"
+   ]
+  },
+  {
+   "ticker": "MU",
+   "societe": "Micron Technology",
+   "poids": 5.2,
+   "date": "2026-12-16",
+   "confirme": false,
+   "moment": "après la clôture",
+   "eps": "37,77 $",
+   "ca": "57,2 Md$",
+   "enjeu": "La guidance T1 FY2027 (61,5 Md$ ± 1,5 ; BPA 38,15 $ ± 1 ; marge brute ~86,25 %) est nettement au-dessus du consensus : le marché attend une confirmation de la hausse des prix DRAM/NAND. La direction prévoit une offre mémoire bien plus tendue en 2027-2028, avec plus de 75 % de la production FY2027 déjà engagée.",
+   "dernier": "réaction après-Bourse hésitante (repli initial sur la hausse des capex, puis ~+2 % selon Yahoo/CNBC) ; NQ +1,1 % et semis asiatiques en hausse le lendemain",
+   "precedents": [
+    {
+     "trimestre": "T4 FY2026",
+     "bpa": "33,42 $",
+     "bpa_attendu": "31,72 $",
+     "ca": "54,23 Md$",
+     "ca_attendu": "51,33 Md$",
+     "reaction": "après-Bourse : repli initial puis ~+2 % (sources divergentes)"
+    },
+    {
+     "trimestre": "T3 FY2026",
+     "bpa": "25,11 $",
+     "bpa_attendu": "21,39 $",
+     "ca": "41,46 Md$",
+     "ca_attendu": "35,91 Md$",
+     "reaction": "+15,7 % le lendemain"
+    },
+    {
+     "trimestre": "T2 FY2026",
+     "bpa": "12,20 $",
+     "bpa_attendu": "9,19 $",
+     "ca": "23,86 Md$",
+     "ca_attendu": "19,97 Md$",
+     "reaction": ""
+    }
+   ],
+   "sante": {
+    "resume": "Super-cycle de la mémoire porté par l'IA : CA T4 multiplié par ~4,8 sur un an et data center multiplié par plus de 11, à 18 Md$. Capitalisation supérieure à 1 200 Md$ après une hausse de plus de 500 % sur 52 semaines.",
+    "croissance": "+379 % sur 1 an (T4 FY2026)",
+    "marge": "marge opé. non-GAAP 81,2 % (T3 FY2026)",
+    "tresorerie": "30,2 Md$ de cash et placements contre 5,7 Md$ de dette (fin T3 FY2026)",
+    "valorisation": ""
+   },
+   "sources": [
+    "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q4-2026-estimates-as-demand-stays-hot-93CH-4925992",
+    "https://www.stocktitan.net/news/MU/micron-technology-inc-reports-record-results-for-the-third-quarter-6f50161e5zxh.html"
    ]
   }
  ]
