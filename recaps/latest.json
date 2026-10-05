@@ -1,6 +1,93 @@
 {
-  "updated": "2026-10-05T05:55:50Z",
+  "updated": "2026-10-05T11:56:32Z",
   "recaps": [
+    {
+      "id": "2026-10-05-14",
+      "slot": "14h",
+      "at": "2026-10-05T11:56:32Z",
+      "titre": "ISM services à 16h, dollar dopé par la crise française",
+      "resume": "Pré-marché légèrement rouge : NQ -0,23 % vers 30 990, ES -0,12 %, après le rallye de vendredi sur le NFP faible (+29k). La vraie histoire du jour vient d'Europe : la dette française (OAT 10 ans ~4,91 %, spread OAT-Bund ~146-147 pb, plus haut depuis 2012) et les élections anticipées en Espagne (29 nov.) envoient l'euro au plus bas de 17 mois (1,1161) et le DXY à 102,53, plus haut depuis avril 2025 ; CAC 40 entre -0,9 % et -1 %. Le 10 ans US reste collé vers 5,28 %. L'or monte malgré le dollar (GC ~4 189 $, +0,65 %) car la force du billet vient de l'Europe, pas des taux US, et la proba de hausse Fed en octobre est retombée vers ~20 %. Le pétrole est partagé (Brent ~102,6 $, WTI ~90,5-91 $) avec Ormuz toujours en toile de fond ; côté valeurs, PTC (Nasdaq-100) bondit d'environ +35 % sur son rachat par Schneider à 205 $/action. Seul vrai test de l'après-midi : ISM services à 16h, avant les minutes du FOMC mercredi.",
+      "nq": {
+        "biais": "neutre",
+        "points": [
+          "Futures légèrement négatifs (-0,23 %) : consolidation après +1,19 % vendredi, attentisme avant les minutes du FOMC mercredi",
+          "Soutien : proba de hausse Fed en octobre ~20 % (vs ~70 % il y a une semaine) et flux IA/M&A (PTC +35 %, Qualcomm +2 % sur l'accord Huawei, Tesla en hausse sur les discussions avec TSMC)",
+          "Frein : 10 ans US ~5,28 % et DXY au plus haut depuis avril 2025, VIX en hausse à ~16,3",
+          "ISM services à 16h (surtout les prix, préc. 72,6) peut relancer ou enterrer le scénario de hausse"
+        ]
+      },
+      "gc": {
+        "biais": "haussier",
+        "points": [
+          "GC ~4 189 $ (+0,65 %) : l'or monte avec le dollar, car la hausse du DXY vient du stress européen, pas des taux US",
+          "Demande refuge des investisseurs européens face aux tensions sur les dettes française, italienne, belge",
+          "Proba de hausse Fed retombée vers ~20 % après le NFP à +29k",
+          "Mais niveaux à franchir : 4 200 $ puis ~4 265 $ (MM100 citée par FXStreet) ; sous 4 100 $ la pression revient, et FXStreet parle d'un rebond de survente plus que d'un retournement"
+        ]
+      },
+      "agenda": [
+        {
+          "heure": "15:30 (Paris)",
+          "evenement": "Ouverture Wall Street",
+          "enjeu": "Test du léger repli des futures ; PTC (+~35 % pré-marché) et les semis en focus."
+        },
+        {
+          "heure": "15:45 (Paris)",
+          "evenement": "USD – PMI services S&P Global final (sept.)",
+          "enjeu": "Révision du flash, qui montrait la croissance la plus rapide depuis plus de 5 ans (composite 58,4). Impact faible sauf grosse révision."
+        },
+        {
+          "heure": "16:00 (Paris)",
+          "evenement": "USD – ISM services (sept.)",
+          "enjeu": "Prévu 55,0-55,1 / précédent 55,4 ; prix payés préc. 72,6. Au-dessus (et prix chauds) : taux et dollar ↑, la hausse Fed revient, pression sur NQ et sur l'or. En dessous : détente des taux, NQ soutenu, l'or peut viser 4 200 $."
+        },
+        {
+          "heure": "heure non confirmée",
+          "evenement": "Fedspeak (Goolsbee évoqué ce matin) / BCE (Schnabel)",
+          "enjeu": "Aucun horaire confirmé trouvé. Goolsbee reste hawkish sur l'inflation (« playing with fire »)."
+        },
+        {
+          "heure": "Mar. 14:15 / 14:30 (Paris)",
+          "evenement": "USD – ADP emploi + balance commerciale",
+          "enjeu": "Confirmation ou non du ralentissement de l'emploi après le NFP."
+        },
+        {
+          "heure": "Mer. 20:00 (Paris)",
+          "evenement": "Minutes du FOMC (septembre)",
+          "enjeu": "Rendez-vous de la semaine : appétit du comité pour de nouvelles hausses."
+        }
+      ],
+      "earnings": [
+        {
+          "societe": "Aucun gros poids du Nasdaq-100",
+          "quand": "—",
+          "enjeu": "Pas de publication majeure avant l'ouverture ni après la clôture aujourd'hui ; PepsiCo et Delta plus tard dans la semaine."
+        },
+        {
+          "societe": "PTC (Nasdaq-100) – rachat par Schneider Electric",
+          "quand": "avant ouverture",
+          "enjeu": "205 $/action en cash (22,6 Md$, prime de 42 %), titre ~+35 % vers 194 $ en pré-marché ; Schneider chute de 7 à 9 % à Paris. Signal de M&A sur le logiciel industriel/IA."
+        }
+      ],
+      "risques": [
+        "ISM services/prix chaud à 16h : le 10 ans repart vers ses plus hauts depuis 2002 (5,33 %) et le NQ décroche",
+        "Contagion de la crise de dette française (OAT proche de 5 %) : dollar encore plus fort, risk-off global ; pour l'or, soutien refuge mais frein du DXY",
+        "Iran : Trump dit approcher d'une décision (« easy way or the hard way »), renforts navals en route ; une escalade ferait flamber le Brent"
+      ],
+      "sources": [
+        "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-5-dow-sp-500-nasdaq-081220790.html",
+        "https://finance.yahoo.com/markets/stocks/articles/nasdaq-p-500-dow-futures-085240343.html",
+        "https://www.euronews.com/2026/10/05/euro-hits-17-month-low-as-french-debt-fears-mount-and-spain-heads-for-snap-election",
+        "https://eurasiabusinessnews.com/2026/10/05/european-stock-markets-open-mixed-as-french-fiscal-fears-hit-cac-40/",
+        "https://www.fxstreet.com/news/gold-struggles-as-dovish-fed-repricing-meets-stronger-us-dollar-elevated-yields-202610051050",
+        "https://www.fxstreet.com/analysis/why-gold-and-the-dollar-are-rising-together-today-202610051051",
+        "https://www.fxstreet.com/news/ism-services-pmi-expected-to-show-robust-us-economy-in-september-202610050900",
+        "https://www.benzinga.com/news/26/10/62155206/why-ptc-shares-are-trading-higher-by-around-35-here-are-20-stocks-moving-premarket",
+        "https://gulfnews.com/world/americas/17gix0n-oil-prices-rise-brent-above-103-1.500698305",
+        "https://iranintl.com/en/202610048164",
+        "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+      ]
+    },
     {
       "id": "2026-10-05-08",
       "slot": "8h",
