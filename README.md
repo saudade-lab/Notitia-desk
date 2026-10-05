@@ -75,15 +75,31 @@ Les dates des résultats (Nvidia, Apple, Microsoft, Meta, Tesla…) avec leur po
 ### 🎙 Les directs de Trump et de la Fed
 Colle le lien d'un direct YouTube : le desk l'affiche dans une fenêtre flottante, le transcrit et sort **les phrases clés qui touchent l'économie**, puis fait un récap à la fin.
 
-### 🤖 L'IA (optionnelle)
+### 🤖 L'IA (optionnelle) : branche la tienne
 - **Synthèse du marché** toutes les 30 min, avec un biais NQ et or.
 - **Analyse poussée** d'une news en un clic : contexte, scénario NQ, scénario or, ce qu'il faut surveiller.
+- **Directs Trump / Fed** : les phrases clés et le récap de fin.
 
-Deux choix possibles :
-- **Ollama** : gratuit, tourne sur ton PC (`Installer-IA.bat`).
-- **DeepSeek** : en ligne, réponse en quelques secondes, quelques centimes par jour (`Configurer-DeepSeek.bat`).
+Chacun branche **sa propre IA, avec sa propre clé**. Ça se passe dans le menu **Mon IA** (bouton IA en haut du desk → *Changer*) :
 
-Les alertes, elles, ne dépendent jamais de l'IA : elles restent instantanées.
+| IA | Prix indicatif | Pour qui |
+|---|---|---|
+| **Ollama** | gratuit | tourne sur ton PC, sans clé (`Installer-IA.bat`) ; lent sur un petit PC |
+| **DeepSeek** | quelques centimes / jour | rapide et très peu cher |
+| **Claude** (Anthropic) | Haiku : centimes / jour | très bon en analyse et en français |
+| **OpenAI** (GPT) | modèles « mini » : centimes / jour | prends un « mini » pour le desk |
+| **Mistral** | petits modèles : centimes / jour | IA française |
+| **Groq** | palier gratuit limité | ultra rapide |
+| **OpenRouter** | selon le modèle | une seule clé pour presque toutes les IA |
+
+Comment ça marche :
+1. Tu colles ta clé dans le menu Mon IA.
+2. Le desk affiche la liste des modèles dispo sur ton compte, tu choisis.
+3. Tu cliques sur **Tester et utiliser** : ça bascule tout de suite, sans redémarrer.
+
+🔒 Ta clé reste sur ton PC (dossier AppData) : jamais dans le dossier de l'app, le zip ou GitHub, et elle n'est jamais réaffichée.
+
+Les alertes et les notes /5, elles, ne dépendent jamais de l'IA : elles restent instantanées, même sans clé ou sans solde.
 
 ### 🧰 Et aussi
 - **Récaps du desk** à 8h et 14h.
