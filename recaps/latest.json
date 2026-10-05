@@ -1,6 +1,92 @@
 {
-  "updated": "2026-10-01T12:05:51Z",
+  "updated": "2026-10-05T05:55:50Z",
   "recaps": [
+    {
+      "id": "2026-10-05-08",
+      "slot": "8h",
+      "at": "2026-10-05T05:55:50Z",
+      "titre": "NFP faible : la hausse Fed s'éloigne, ISM ce soir",
+      "resume": "Le NFP de vendredi (+29k vs ~90k attendus, révisions -60k, chômage 4,2 %) a fait chuter la proba d'une hausse Fed en octobre à ~20-23 % (contre ~70 % une semaine plus tôt) : Nasdaq Composite +1,19 % à 27 190,86, Nvidia à un record proche de 6 000 Md$ de capitalisation. Le 10 ans US s'est détendu vers 5,18-5,28 % selon les sources, mais reste proche de ses plus hauts depuis 2002. En Asie ce matin, le Nikkei prend +2,5 % à un plus haut de 3 mois porté par l'IA ; le dollar reste au plus haut depuis ~17 mois (EUR/USD au plus bas depuis mai 2025, USD/JPY ~158). L'or rebondit modestement (~4 158 $, +0,4 %) après sa pire semaine depuis juin (-3,4 %), et le pétrole recule (Brent ~101,9 $, WTI ~90,5 $) avec le déstockage G7 et l'OPEP+ qui laisse ses quotas inchangés. Journée calme côté data : ISM services à 16h00, Goolsbee et Schnabel au programme ; le gros rendez-vous de la semaine reste les minutes du FOMC mercredi 20h00.",
+      "nq": {
+        "biais": "haussier",
+        "points": [
+          "Proba de hausse Fed en octobre tombée à ~20-23 % après le NFP à +29k : moins de pression sur les valorisations tech",
+          "Momentum IA intact : Nasdaq +1,19 % vendredi, Nvidia en record, Nikkei +2,5 % ce matin sur les valeurs IA",
+          "Pétrole en repli (Brent ~102 $, WTI ~90,5 $) = moins de risque inflation à court terme",
+          "Mais le 10 ans reste vers 5,2 % et un ISM services/prix chaud à 16h peut relancer le scénario de hausse"
+        ]
+      },
+      "gc": {
+        "biais": "neutre",
+        "points": [
+          "Soutien : la baisse des paris de hausse Fed fait rebondir l'or (~4 158 $, +0,4 %) après -3,4 % la semaine dernière",
+          "Frein : dollar au plus haut depuis ~17 mois et 10 ans US vers 5,2 %, plafonnent le rebond",
+          "Technique citée par FXStreet : sous la MM100 (~4 275 $), support ~4 102 $, RSI ~39",
+          "Géopolitique Iran/Ormuz toujours active (tankers touchés vendredi, Parlement iranien rejette le plan US) = soutien refuge en cas d'escalade"
+        ]
+      },
+      "agenda": [
+        {
+          "heure": "16:00 (Paris)",
+          "evenement": "ISM services (sept.) US",
+          "enjeu": "prévu 55,1 / précédent 55,4 — la composante prix compte double après l'ISM manufacturier prix à 77,9"
+        },
+        {
+          "heure": "heure non confirmée",
+          "evenement": "Discours Goolsbee (Fed Chicago)",
+          "enjeu": "il a jugé l'inflation persistante « playing with fire » le 29/09 ; à écouter sur la lecture du NFP faible"
+        },
+        {
+          "heure": "heure non confirmée",
+          "evenement": "Discours Schnabel (BCE)",
+          "enjeu": "ton BCE alors que l'euro est au plus bas depuis mai 2025 face au dollar"
+        },
+        {
+          "heure": "Mar. 14:15 / 14:30 (Paris)",
+          "evenement": "ADP emploi + balance commerciale US (prévu -95,2 Md$ / préc. -88,6 Md$)",
+          "enjeu": "confirmation (ou non) du ralentissement de l'emploi ; Williams et Bowman parlent mardi"
+        },
+        {
+          "heure": "Mer. 20:00 (Paris)",
+          "evenement": "Minutes du FOMC (15-16 sept.)",
+          "enjeu": "rendez-vous de la semaine : quel appétit pour de nouvelles hausses ? + adjudication 10 ans mercredi"
+        },
+        {
+          "heure": "Jeu. 14:30 (Paris)",
+          "evenement": "Inscriptions chômage US",
+          "enjeu": "prévu 200k / précédent 197k ; minutes BCE à 13:30"
+        },
+        {
+          "heure": "Ven. 16:00 (Paris)",
+          "evenement": "Michigan confiance (prélim. oct.)",
+          "enjeu": "prévu 48,1 / précédent 48,1 + anticipations d'inflation"
+        }
+      ],
+      "earnings": [
+        {
+          "societe": "Aucun gros poids du Nasdaq-100 aujourd'hui",
+          "quand": "—",
+          "enjeu": "Semaine légère : PepsiCo jeudi, Delta vendredi. Tesla a confirmé ses résultats T3 le 21/10 après la clôture (livraisons T3 486 532, au-dessus du consensus ~462k)."
+        }
+      ],
+      "risques": [
+        "ISM services chaud (surtout prix payés) à 16h : retour rapide des paris de hausse Fed et des taux longs, NQ sous pression",
+        "Minutes du FOMC mercredi plus hawkish que prévu, avec un 10 ans déjà proche de ses plus hauts depuis 2002",
+        "Escalade Iran/Ormuz (attaques Houthis sur sites saoudiens, tankers touchés) : pétrole en hausse = risque inflation pour le NQ, soutien pour l'or"
+      ],
+      "sources": [
+        "https://avaloncapitalresearch.substack.com/p/closing-bell-nasdaq-rallies-12-after",
+        "https://qz.com/treasury-yields-september-jobs-report-fed-rate-hike-100226",
+        "https://investinglive.com/news/investinglive-asia-pacific-market-news-dollar-firms-oil-edges-lower/",
+        "https://www.fxstreet.com/news/gold-holds-gains-above-4-150-as-traders-trim-bets-on-fed-rate-hikes-202610050213",
+        "https://www.tradingview.com/news/moneycontrol:a591beb87094b:0-commodity-corner-oil-prices-slip-on-rising-supply-gold-gains-on-softer-fed-rate-hike-bets/",
+        "https://www.investing.com/news/commodities-news/gold-edges-higher-after-weekly-slide-as-weak-jobs-data-ease-fed-hike-bets-4930980",
+        "https://fxstreet.com/news/opec-agrees-to-keep-oil-output-policy-unchanged-for-november-202610050002",
+        "https://investinglive.com/news/week-ahead-ism-services-fed-minutes-and-canadian-jobs-lead-the-economic-calendar-be-aware/",
+        "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---4th-9th-october-2026",
+        "https://www.foxnews.com/live-news/us-iran-war-trump-talks-strait-hormuz-oil-prices-10-03-26"
+      ]
+    },
     {
       "id": "2026-10-01-14",
       "slot": "14h",
