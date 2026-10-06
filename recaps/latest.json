@@ -1,6 +1,118 @@
 {
-  "updated": "2026-10-05T11:56:32Z",
+  "updated": "2026-10-06T05:57:01Z",
   "recaps": [
+    {
+      "id": "2026-10-06-08",
+      "slot": "8h",
+      "at": "2026-10-06T05:57:01Z",
+      "titre": "Taux US au sommet, Nasdaq record, or au tapis",
+      "resume": "Le Nasdaq a clôturé lundi sur un record (27 477, +1,05 %), porté par Nvidia (+2,1 % à 238,90 $, record, capi proche de 6 000 Md$) et la tech, malgré un 10 ans US à 5,315 % (plus haut de clôture depuis 2002, pic à ~5,35 % en séance). Le déclencheur côté taux : ISM services à 54,9 (vs 55,2 attendu) mais composante prix à 74,0, plus haut depuis juillet 2022. L'or en fait les frais : ~4 147 $ hier soir, puis plus bas de deux mois en Asie ce matin, les vendeurs visant la cassure de 4 100 $ ; le dollar reste au plus haut depuis avril 2025 (crise de la dette française, Espagne). Asie mitigée (Nikkei +0,3 %, Hang Seng +0,8 %, Kospi -0,8 %), futures européens ~+0,4 %, pétrole ferme (Brent ~100,9 $, WTI ~90 $). Journée calme en chiffres (balance commerciale 14h30, Fedspeak Bowman/Williams/Logan) : le vrai rendez-vous, ce sont les minutes du FOMC demain 20h.",
+      "nq": {
+        "biais": "neutre",
+        "points": [
+          "Momentum fort : record de clôture lundi (+1,05 %), Nvidia au record après son rachat d'actions porté à un niveau record (+150 Md$) et le relèvement de Morgan Stanley",
+          "Frein majeur : 10 ans US à 5,32 %, plus haut depuis 2002, et 30 ans à 5,67 % ; prix ISM services à 74 = inflation des services qui ne cède pas",
+          "Fed : ~80 % de statu quo en octobre selon les marchés prédictifs, mais ~86 % de proba d'une hausse d'ici fin d'année (FXStreet) ; Fedspeak du jour à surveiller",
+          "Peu de catalyseurs avant les minutes du FOMC mercredi : séance de consolidation probable près des plus hauts"
+        ]
+      },
+      "gc": {
+        "biais": "baissier",
+        "points": [
+          "Plus bas de deux mois en Asie ce matin, après -~3 % la semaine dernière ; support clé ~4 098 $ (Fibo 78,6 %), puis ~3 936 $ (FXStreet)",
+          "Taux réels qui montent (10 ans à 5,32 %) : c'est le principal poids sur le métal",
+          "Dollar au plus haut depuis avril 2025 (euro plombé par la dette française)",
+          "Soutien possible : tensions Iran/Ormuz (3 groupes aéronavals US attendus fin octobre) ; résistances 4 226 $ puis 4 254 $"
+        ]
+      },
+      "agenda": [
+        {
+          "heure": "08:00 (Paris)",
+          "evenement": "EUR – Commandes industrielles allemandes (août)",
+          "enjeu": "prévu -1,0 % ; impact limité sur NQ/or"
+        },
+        {
+          "heure": "11:00 (Paris)",
+          "evenement": "EUR – Ventes au détail zone euro (août)",
+          "enjeu": "zone euro sous pression (dette française), l'euro sort d'un plus bas de 17 mois à 1,1161"
+        },
+        {
+          "heure": "14:15 (Paris)",
+          "evenement": "USD – ADP emploi hebdomadaire",
+          "enjeu": "précédent +20k ; confirme ou non le ralentissement après le NFP à +29k"
+        },
+        {
+          "heure": "14:30 (Paris)",
+          "evenement": "USD – Balance commerciale (août)",
+          "enjeu": "prévu -95,2 Md$ (Investing) à -102 Md$ (Reuters) / précédent -88,6 Md$ ; impact modéré"
+        },
+        {
+          "heure": "16:45 (Paris)",
+          "evenement": "Fed – Discours de Michelle Bowman",
+          "enjeu": "gouverneure, ton sur la hausse des taux après l'ISM prix à 74"
+        },
+        {
+          "heure": "heure non confirmée",
+          "evenement": "Fed – Williams (NY) et Schmid ; Marvell investor day",
+          "enjeu": "Williams avait évoqué fin septembre une hausse supplémentaire d'ici fin 2026 ; Marvell (NQ-100) met à jour ses objectifs long terme"
+        },
+        {
+          "heure": "19:00 (Paris)",
+          "evenement": "USD – Adjudication Trésor 3 ans",
+          "enjeu": "précédent 4,474 % ; demande faible = taux plus hauts = pression NQ/or"
+        },
+        {
+          "heure": "22:30 (Paris)",
+          "evenement": "USD – Stocks API pétrole",
+          "enjeu": "précédent +1,0 M barils"
+        },
+        {
+          "heure": "Mer. 01:00 (Paris)",
+          "evenement": "Fed – Discours de Lorie Logan (Dallas)",
+          "enjeu": "faucon reconnu"
+        },
+        {
+          "heure": "Mer. 20:00 (Paris)",
+          "evenement": "Minutes du FOMC (septembre)",
+          "enjeu": "rendez-vous de la semaine : appétit du comité pour de nouvelles hausses"
+        }
+      ],
+      "earnings": [
+        {
+          "societe": "Constellation Brands (STZ)",
+          "quand": "après clôture",
+          "enjeu": "BPA attendu 3,55 $ ; hors Nasdaq-100, impact indirect"
+        },
+        {
+          "societe": "Lamb Weston (LW), RPM",
+          "quand": "avant ouverture",
+          "enjeu": "BPA attendus 0,59 $ et 1,95 $ ; pas de gros poids du NQ aujourd'hui"
+        },
+        {
+          "societe": "PepsiCo (PEP, jeudi)",
+          "quand": "avant ouverture",
+          "enjeu": "BPA attendu 2,30 $, CA 24,98 Md$ ; premier membre du Nasdaq-100 à publier pour le T3, relance attendue"
+        }
+      ],
+      "risques": [
+        "Le 10 ans US casse 5,35 % (Fedspeak faucon, adjudication 3 ans ratée) : rotation hors tech, NQ rattrapé par les taux",
+        "Or : cassure de 4 100 $ ouvre la voie vers ~3 936 $ ; à l'inverse, une escalade Iran/Ormuz ferait remonter l'or et le pétrole",
+        "Crise de la dette française / Espagne : dollar encore plus fort et risk-off global"
+      ],
+      "sources": [
+        "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-05-2026",
+        "https://investing.com/news/economy-news/trading-day-nasdaq-highs-brazil-surprise-4932947",
+        "https://www.indexbox.io/blog/us-services-pmi-slows-to-549-in-september-as-prices-index-hits-highest-since-july-2022/",
+        "https://www.fxstreet.com/news/gold-hits-two-month-low-as-bears-await-break-below-4-100-amid-sustained-usd-strength-202610060506",
+        "https://investinglive.com/news/investinglive-asia-pacific-market-news/",
+        "https://www.investing.com/news/economy-news/morning-bid-spain-to-france-hold-my-cerveza-4933351",
+        "https://www.investing.com/news/stock-market-news/trade-balance-adp-employment-and-feds-bowman-among-data-due-tuesday-93CH-4932687",
+        "https://riotimesonline.com/global-economy-briefing-october-6-2026",
+        "https://oilprice.com/",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/"
+      ]
+    },
     {
       "id": "2026-10-05-14",
       "slot": "14h",

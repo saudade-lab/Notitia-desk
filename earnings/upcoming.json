@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T05:55:50Z",
+  "updated": "2026-10-06T05:57:01Z",
   "items": [
     {
       "ticker": "TSLA",
@@ -61,7 +61,7 @@
       "moment": "après la clôture",
       "eps": "0,39 $",
       "ca": "16,4 Md$",
-      "enjeu": "Intel guide un CA T3 de 15,8 à 16,8 Md$, un BPA non-GAAP de 0,38 $ et une marge brute d'environ 42 %. Le marché attend la confirmation du redressement, porté par un data center à +59 % sur un an au T2, et de la stratégie Foundry.",
+      "enjeu": "Intel guide un CA T3 de 15,8 à 16,8 Md$, un BPA non-GAAP de 0,38 $ et une marge brute d'environ 42 %. Le marché attend la confirmation du redressement, porté par un data center à +59 % sur un an au T2, et de la stratégie Foundry. À suivre : -3,3 % le 05/10 après qu'Elon Musk a indiqué que TSMC pourrait rejoindre son projet Terafab.",
       "dernier": "+12 à 13 % après-Bourse le 23/07, gain ramené sous 4 % le soir même",
       "precedents": [
         {
@@ -99,7 +99,8 @@
       "sources": [
         "https://www.marketbeat.com/earnings/reports/2026-10-22-intel-co-stock/",
         "https://www.indmoney.com/blog/us-stocks/intel-q2-earnings-results-intc-stock-reaction",
-        "https://www.earningslens.ai/stock/intc/preview/2026-Q3"
+        "https://www.earningslens.ai/stock/intc/preview/2026-Q3",
+        "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-05-2026"
       ]
     },
     {
@@ -401,7 +402,7 @@
       "moment": "après la clôture",
       "eps": "2,47 $",
       "ca": "",
-      "enjeu": "Nvidia a guidé 108 Md$ (±2 %) pour le trimestre contre ~104 Md$ attendus, avec une marge brute de 74 % : le marché regardera la montée en puissance de Vera Rubin et le carnet 2027. Le résultat qui bouge le plus le NQ.",
+      "enjeu": "Nvidia a guidé 108 Md$ (±2 %) pour le trimestre contre ~104 Md$ attendus, avec une marge brute de 74 % : le marché regardera la montée en puissance de Vera Rubin et le carnet 2027. Le résultat qui bouge le plus le NQ. Contexte : rachat d'actions relevé d'un record de 150 Md$ et relèvement de Morgan Stanley ; titre au record (238,90 $ le 05/10, capi proche de 6 000 Md$).",
       "dernier": "+8,7 % le lendemain",
       "precedents": [
         {
@@ -437,7 +438,8 @@
         "valorisation": "PER fwd ~25"
       },
       "sources": [
-        "https://www.globenewswire.com/news-release/2026/08/26/3351702/0/en/nvidia-announces-financial-results-for-second-quarter-fiscal-2027.html"
+        "https://www.globenewswire.com/news-release/2026/08/26/3351702/0/en/nvidia-announces-financial-results-for-second-quarter-fiscal-2027.html",
+        "https://thenextweb.com/news/nvidia-150bn-share-buyback-235bn-record"
       ]
     },
     {
