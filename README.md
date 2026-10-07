@@ -11,7 +11,7 @@ Les news qui comptent, notées et expliquées en temps réel. Le calendrier éco
 ![Gratuit](https://img.shields.io/badge/prix-gratuit-3FB27F)
 ![Sans compte](https://img.shields.io/badge/compte-aucun-6C7385)
 
-<img src="docs/desk.png" alt="Le desk BloomBerk : bandeau Trump, biais NQ / or, fil de news analysé, marchés mondiaux et globe des news" width="100%">
+<img src="docs/desk.png" alt="Le desk BloomBerk : zone rouge avant un chiffre US, bandeaux Trump et Fed, globe des news avec le fil d'un côté et les 5/5 de l'autre" width="100%">
 
 </div>
 
@@ -33,31 +33,52 @@ Pas d'installation compliquée ni de compte à créer : tu dézippes, tu lances,
 
 ## ✨ Ce que fait le desk
 
+### 🌍 Le globe au centre, les news autour
+Le cœur du desk : une Terre en 3D (vrai jour, vraie nuit) qui tourne toute seule vers l'endroit où une grosse news vient de tomber (Iran, Ormuz, Chine, Ukraine…).
+- **D'un côté, les news 5/5** : les vrais market movers, avec le lieu, l'heure et l'effet NQ / or.
+- **De l'autre, tout le fil de news** analysé, que tu fais défiler.
+- Tu choisis où vont les 5/5 : **à gauche** ou **à droite**. Ou bien **« Fil à part »** pour remettre le fil de news dans son propre panneau.
+
+**Fiche de la news** : quand une nouvelle 5/5 tombe, sa fiche complète s'ouvre toute seule à côté de la colonne. Elle reste jusqu'à ce que tu la fermes (✕). Un clic sur n'importe quelle 5/5 l'ouvre aussi. Dans la fiche :
+- la source, les autres sources qui la confirment et le lien de l'article ;
+- l'effet NQ / or, le pourquoi et ce qu'il faut surveiller ;
+- la réaction du marché dans les minutes qui suivent ;
+- l'analyse IA, ou le bouton pour la lancer.
+
+<img src="docs/hub-fiche.png" alt="Le globe au centre, le fil de news à gauche, les news 5/5 à droite et la fiche complète d'une nouvelle 5/5" width="100%">
+
 ### 📰 Le fil de news, déjà analysé
-Chaque news (FinancialJuice, Investing, Truth Social, Fed, BCE, BoJ, BoE…) arrive avec :
-- **son heure** et **sa note de 1 à 5** : du bruit au vrai market mover ;
+Chaque news (FinancialJuice, investingLive, Walter Bloomberg, Truth Social, Fed, BCE, BoJ, BoE, CNBC…) arrive avec :
+- **son heure** et **sa note de 1 à 5**, du bruit au vrai market mover ;
 - **l'actif touché** : NQ ▲ / ▼, Or ▲ / ▼ ;
 - **une explication en une ligne** de l'effet sur le marché, et d'où vient l'info.
 
-Tu filtres en un clic : **NQ**, **Or**, **NQ + Or** ou tout. Tu peux aussi filtrer par sujet : Macro & Fed, Europe & Asie, Géopolitique, Sociétés.
+Rien n'est jeté : même les news de bruit (1/5) restent visibles, en plus discret. Tu filtres en un clic : **NQ**, **Or**, **NQ + Or**, **3/5 et +**, ou par sujet (Macro & Fed, Europe & Asie, Géopolitique, Sociétés).
 
-<img src="docs/news.png" alt="Fil de news analysé" width="560">
+### 🧠 Un moteur de notation qui apprend du marché
+Les notes /5 viennent d'un moteur de règles spécialisé macro. Il n'a pas besoin d'IA et réagit instantanément :
+- **La surprise compte, pas le chiffre** : un CPI à +0,1 point au-dessus du consensus est une vraie surprise, un NFP à +20K c'est du bruit. Chaque chiffre est comparé à sa taille de surprise habituelle.
+- **Vérifié par le marché** : 10 min après chaque news importante, le desk regarde si le NQ et l'or ont bougé dans le sens annoncé (✓ confirmé, ⇄ inverse, calme). Les news contredites par le marché pèsent moins dans le biais.
+- **Il apprend** : si un type de news est souvent contredit par le marché ces dernières semaines, il est noté plus prudemment.
+- **Rumeurs et démentis** : « selon des sources » ou un démenti valent moins qu'une annonce officielle. La même info confirmée par 3 sources monte d'un cran.
 
 ### 🚨 Les alertes qui comptent vraiment
 - **Focus Trump / Fed / BCE / BoJ** : un post important de Trump sur Truth Social, un communiqué de la Fed ou une décision de taux s'affiche en grand, avec la lecture marché.
-- **Zone rouge** : compte à rebours avant les gros chiffres US (CPI, NFP, PCE, ISM…) pour ne pas se faire surprendre avec une position ouverte.
+- **Zone rouge** : compte à rebours avant les gros chiffres US (CPI, NFP, PCE, ISM…), pour ne pas te faire surprendre avec une position ouverte.
 - **« Pendant ton absence »** : si ton PC était éteint, un récap des annonces manquées t'attend au retour.
 - **Notifs sur ton téléphone** (appli ntfy) et **lecture à voix haute** en option.
 
 ### 📅 Calendrier éco US, Europe et Asie
-Le **prochain chiffre clé** est en tête avec son compte à rebours. Chaque publication a sa fiche :
+Le **prochain chiffre clé** est en tête avec son compte à rebours. Un clic sur un événement ouvre sa fiche, sans faire bouger ta page :
 - avant le chiffre : le prévu, le précédent et **les scénarios** (au-dessus / en ligne / en dessous → effet NQ et or) ;
 - après le chiffre : le réel, la surprise, la lecture Fed et la **réaction du marché** à 1, 5 et 15 min.
 
-### 🌍 Le globe des news
-Une Terre en 3D avec le vrai jour et la vraie nuit. Elle tourne toute seule vers la zone où une grosse news vient de tomber (Iran, Ormuz, Chine, Ukraine…), et la fiche de la news s'affiche à côté.
+### 📝 La synthèse du marché, avec ou sans IA
+Une note de marché à lire en 30 secondes avant de trader : le thème du moment, le régime macro (inflation, chômage, Fed, 10 ans), le biais NQ et le biais or avec leurs arguments, ce qui arrive et les risques.
+- **Sans IA**, le desk l'écrit lui-même à partir de ses données : chaque phrase vient d'un chiffre ou d'une news du desk. Elle est mise à jour en continu.
+- **Avec une IA**, elle est rédigée par l'IA toutes les heures (voir plus bas).
 
-<img src="docs/globe.png" alt="Globe des news" width="680">
+<img src="docs/synth.png" alt="Synthèse du marché" width="100%">
 
 ### 🌐 Marchés mondiaux & macro
 - **Marchés mondiaux** : indices Europe / Asie / US, devises, taux, pétrole, or, bitcoin, et les sessions Tokyo / Londres / New York en direct.
@@ -75,10 +96,16 @@ Les dates des résultats (Nvidia, Apple, Microsoft, Meta, Tesla…) avec leur po
 ### 🎙 Les directs de Trump et de la Fed
 Colle le lien d'un direct YouTube : le desk l'affiche dans une fenêtre flottante, le transcrit et sort **les phrases clés qui touchent l'économie**, puis fait un récap à la fin.
 
-### 🤖 L'IA (optionnelle) : branche la tienne
-- **Synthèse du marché** toutes les 30 min, avec un biais NQ et or.
-- **Analyse poussée** d'une news en un clic : contexte, scénario NQ, scénario or, ce qu'il faut surveiller.
+### 🤖 L'IA (optionnelle) : un stratégiste macro qui ne s'invente rien
+- **Synthèse du marché** toutes les heures, avec un biais NQ et or.
+- **Analyse poussée** d'une news : le fait, la surprise, la lecture Fed, le canal (taux, dollar, risque, refuge), le scénario NQ, le scénario or, ce qui l'annulerait et ce qu'il faut surveiller.
 - **Directs Trump / Fed** : les phrases clés et le récap de fin.
+
+L'IA travaille comme un stratégiste de salle de marché :
+- **Elle voit tout le desk** : prix, taux, dollar, régime macro, anticipations Fed, chiffres sortis, déclarations et agenda.
+- **Elle suit une méthode macro fixe** : fait → surprise → Fed → canal → scénarios.
+- **La surprise d'un chiffre est calculée par le desk**, jamais laissée à l'IA.
+- **✓ Chiffres vérifiés** : chaque chiffre et chaque heure écrits par l'IA sont comparés aux données du desk. Un chiffre introuvable, c'est une phrase corrigée ou retirée, et le desk te le signale.
 
 Chacun branche **sa propre IA, avec sa propre clé**. Ça se passe dans le menu **Mon IA** (bouton IA en haut du desk → *Changer*) :
 
@@ -99,14 +126,22 @@ Comment ça marche :
 
 🔒 Ta clé reste sur ton PC (dossier AppData) : jamais dans le dossier de l'app, le zip ou GitHub, et elle n'est jamais réaffichée.
 
-Les alertes et les notes /5, elles, ne dépendent jamais de l'IA : elles restent instantanées, même sans clé ou sans solde.
+Les alertes et les notes /5 ne dépendent jamais de l'IA : elles restent instantanées, même sans clé ou sans solde.
+
+### 🧩 Ton desk, ta disposition
+Clique sur **Disposition** en haut du desk :
+- **Déplace** les panneaux, **retire-les** et remets-les quand tu veux.
+- **Hauteur et largeur** de chaque panneau à la souris. Deux panneaux à 50 % se mettent côte à côte.
+- **Globe** : règle sa hauteur, la largeur du fil / du globe / des 5/5, et la taille de la Terre (− / ＋ ou molette).
+- **Hors mode disposition**, rien ne bouge par erreur. Tout est gardé sur ton PC, et « Réinitialiser » remet le desk d'origine.
+
+<img src="docs/layout.png" alt="Mode disposition : poignées pour la taille du globe et la largeur des colonnes" width="100%">
 
 ### 🧰 Et aussi
 - **Récaps du desk** à 8h et 14h.
 - **Mode trading** : une vue épurée avec juste le biais, les grosses news, le globe et le prochain chiffre.
-- **Disposition libre** : tu déplaces, retires et remets les panneaux comme tu veux.
 - **Sur ton téléphone** : le desk s'affiche aussi sur ton tel (voir plus bas).
-- **NinjaTrader 8** : prix en direct et réaction du marché à chaque news.
+- **NinjaTrader 8** : prix en direct, réaction du marché à chaque news et vérification des lectures.
 
 ---
 
