@@ -1,6 +1,100 @@
 {
-  "updated": "2026-10-07T05:56:30Z",
+  "updated": "2026-10-07T11:56:50Z",
   "recaps": [
+    {
+      "id": "2026-10-07-14",
+      "slot": "14h",
+      "at": "2026-10-07T11:56:50Z",
+      "titre": "Taux et pétrole serrent la vis avant les minutes",
+      "resume": "Le scénario du matin se confirme : le 10 ans US grimpe vers 5,32 %, tout près du pic de lundi (5,349 %) et de ses plus hauts depuis 2002, le dollar se raffermit (DXY ~102,3) et le Brent reste au-dessus de 101 $ sur les frappes houthies et l'ouragan dans le golfe du Mexique. L'Europe encaisse : le DAX lâche ~1,45 % vers 25 070 points, avec Infineon (-5,7 %) et Deutsche Bank (-5,2 %) en tête des baisses, et l'euro glisse vers 1,122, près de ses plus bas de 17 mois. Côté US, les futures sont dans le rouge en pré-marché, Nasdaq-100 en tête (-0,34 %, S&P -0,07 %), après les records d'hier. L'or casse sous 4 120 $ (-1,1/-1,2 %) et se rapproche du support de 4 100 $. Pas de chiffre US majeur à 14h30 : l'après-midi se joue sur le pétrole (EIA 16h30), l'adjudication 10 ans (19h) et surtout les minutes du FOMC à 20h. En toile de fond, la polémique sur les propos de Trump sur l'Iran et la riposte moqueuse du président du Parlement iranien entretiennent la prime géopolitique.",
+      "nq": {
+        "biais": "baissier",
+        "points": [
+          "Futures Nasdaq-100 -0,34 % en pré-marché, le plus faible des indices US, après un double record hier",
+          "10 ans US ~5,32 %, à un souffle des plus hauts depuis 2002 : pression directe sur les valorisations tech",
+          "Signal semi négatif en Europe : Infineon -5,7 % à Francfort",
+          "Ouverture 15h30 sans chiffre pour changer la donne : le vrai juge, ce sont l'adjudication 10 ans (19h) et les minutes (20h)"
+        ]
+      },
+      "gc": {
+        "biais": "baissier",
+        "points": [
+          "Or spot ~4 115 $ (-1,1 à -1,2 %), parti de ~4 167 $ à l'ouverture, en route vers le support de 4 100 $ (plus bas de mardi ~4 103,5 $)",
+          "Double vent contraire : DXY >102,3 et 10 ans vers 5,32 %",
+          "Sous 4 100 $, les analystes visent la zone 4 000-3 950 $ ; résistances 4 200 $ puis ~4 230 $",
+          "Soutiens de fond : 23e mois d'achats de la PBoC et tensions au Moyen-Orient, mais ils ne tiennent pas le métal face au dollar ferme"
+        ]
+      },
+      "agenda": [
+        {
+          "heure": "15:30 (Paris)",
+          "evenement": "Ouverture Wall Street",
+          "enjeu": "futures NQ -0,34 % en pré-marché ; regarder si les semis suivent Infineon à la baisse"
+        },
+        {
+          "heure": "16:30 (Paris)",
+          "evenement": "USD – Stocks de pétrole EIA",
+          "enjeu": "Brent >101 $, ouragan dans le golfe (Shell évacue). Baisse des stocks = pétrole et taux plus hauts, négatif NQ ; hausse des stocks = détente"
+        },
+        {
+          "heure": "19:00 (Paris)",
+          "evenement": "USD – Adjudication 10 ans (39 Md$)",
+          "enjeu": "10 ans ~5,32 %. Demande faible (queue) = taux au-dessus de 5,35 %, négatif NQ et or ; bonne demande = soulagement des deux"
+        },
+        {
+          "heure": "20:00 (Paris)",
+          "evenement": "Fed – Minutes du FOMC (15-16 sept., hausse à 3,75-4,00 %)",
+          "enjeu": "réunion d'avant le NFP faible (29k) et le PCE core à 3,0 %. Ton faucon (plus de hausses) = dollar et taux en hausse, négatif NQ et or ; si la Fed juge que les taux longs resserrent déjà à sa place = rebond possible des deux. Marché : ~20 % de hausse en octobre, ~85 % d'ici décembre"
+        },
+        {
+          "heure": "21:00 (Paris)",
+          "evenement": "Fed – Bowman (régulation, eSLR) + USD crédit à la conso (août)",
+          "enjeu": "thème réglementaire, impact faible attendu"
+        },
+        {
+          "heure": "horaire non confirmé",
+          "evenement": "Fed – Waller, Kashkari, Musalem, Daly, Schmid",
+          "enjeu": "premières réactions au NFP mou ; un discours pro-hausse ferait remonter taux et dollar"
+        },
+        {
+          "heure": "jeu. 16:45 (Paris)",
+          "evenement": "Fed – Bowman (St. Louis)",
+          "enjeu": "régulation et supervision"
+        }
+      ],
+      "earnings": [
+        {
+          "societe": "Aucun gros poids du Nasdaq-100",
+          "quand": "avant ouverture",
+          "enjeu": "journée vide ; les flux tech dépendent des taux, pas des résultats"
+        },
+        {
+          "societe": "Constellation Brands (hors NDX)",
+          "quand": "avant ouverture",
+          "enjeu": "-4,5 % en pré-marché malgré un BPA 3,74 $ au-dessus des attentes, guidance de marge FY27 abaissée : thermomètre conso"
+        },
+        {
+          "societe": "Penguin Solutions (hors NDX)",
+          "quand": "avant ouverture",
+          "enjeu": "+5,9 % en pré-marché sur un T4 meilleur que prévu (infra IA/mémoire)"
+        }
+      ],
+      "risques": [
+        "10 ans US qui casse 5,35 % (pic de lundi) après une adjudication ratée : accélération de la baisse tech et or sous 4 100 $",
+        "Escalade Houthis/Iran ou ouragan qui pousse le Brent nettement au-dessus de 100 $ : inflation, taux, pression NQ",
+        "Retournement : minutes ou Fedspeak qui insistent sur le resserrement déjà fait par les taux longs, d'où détente des taux et rebond NQ et or"
+      ],
+      "sources": [
+        "https://www.benzinga.com/markets/equities/26/10/62210315/stock-market-today-dow-jones-nasdaq-100-futures-decline-as-iran-mocks-us-economy-trump-sparks-bipartisan-backlash-stz-peng-levi-in-focus",
+        "https://www.fxstreet.com/news/gold-falls-as-us-dollar-treasury-yields-rebound-ahead-of-fed-minutes-202610071045",
+        "https://www.fxempire.com/forecasts/article/gold-news-xauusd-slides-as-fed-minutes-and-10-year-auction-test-buyers-1636261",
+        "https://www.marketscreener.com/news/oil-and-bond-yields-rise-weighing-on-dax-investors-await-fed-minutes-ce785dd9d181f62c",
+        "https://investing.com/news/economy-news/morning-bid-whos-the-boss-4935590",
+        "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026",
+        "https://www.federalreserve.gov/newsevents/2026-october.htm",
+        "https://www.aljazeera.com/news/2026/10/7/politicians-slam-trumps-suggestion-that-iran-take-san-diego-los-angeles"
+      ]
+    },
     {
       "id": "2026-10-07-08",
       "slot": "8h",
