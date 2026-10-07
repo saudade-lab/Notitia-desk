@@ -1,17 +1,17 @@
 <div align="center">
 
-# BloomBerk · Desk
+# Notitia Desk
 
 **Ton terminal de marché perso pour trader le Nasdaq (NQ) et l'or (GC).**
 Les news qui comptent, notées et expliquées en temps réel. Le calendrier éco, les banques centrales, les directs de Trump et de la Fed : tout est sur un seul écran.
 
-[![Dernière version](https://img.shields.io/github/v/release/saudade-lab/bloomberk-terminal-?label=version&color=5B8DEF)](https://github.com/saudade-lab/bloomberk-terminal-/releases/latest)
+[![Dernière version](https://img.shields.io/github/v/release/saudade-lab/notitia-desk?label=version&color=5B8DEF)](https://github.com/saudade-lab/notitia-desk/releases/latest)
 ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?logo=windows&logoColor=white)
 ![macOS](https://img.shields.io/badge/macOS-Apple%20%2B%20Intel-111?logo=apple&logoColor=white)
 ![Gratuit](https://img.shields.io/badge/prix-gratuit-3FB27F)
 ![Sans compte](https://img.shields.io/badge/compte-aucun-6C7385)
 
-<img src="docs/desk.png" alt="Le desk BloomBerk : zone rouge avant un chiffre US, bandeaux Trump et Fed, globe des news avec le fil d'un côté et les 5/5 de l'autre" width="100%">
+<img src="docs/desk.png" alt="Notitia Desk : bandeaux Trump et Fed, globe des news avec le fil d'un côté et les 5/5 de l'autre" width="100%">
 
 </div>
 
@@ -21,9 +21,9 @@ Les news qui comptent, notées et expliquées en temps réel. Le calendrier éco
 
 | | |
 |---|---|
-| 🪟 **Windows** | [**MRKT-ia.zip**](https://github.com/saudade-lab/bloomberk-terminal-/releases/latest/download/MRKT-ia.zip) |
-| 🍎 **Mac puce Apple** (M1, M2, M3, M4…) | [**MRKT-mac-arm64.zip**](https://github.com/saudade-lab/bloomberk-terminal-/releases/latest/download/MRKT-mac-arm64.zip) |
-| 🍎 **Mac Intel** | [**MRKT-mac-intel.zip**](https://github.com/saudade-lab/bloomberk-terminal-/releases/latest/download/MRKT-mac-intel.zip) |
+| 🪟 **Windows** | [**Notitia-Desk.zip**](https://github.com/saudade-lab/notitia-desk/releases/latest/download/Notitia-Desk.zip) |
+| 🍎 **Mac puce Apple** (M1, M2, M3, M4…) | [**Notitia-Desk-mac-arm64.zip**](https://github.com/saudade-lab/notitia-desk/releases/latest/download/Notitia-Desk-mac-arm64.zip) |
+| 🍎 **Mac Intel** | [**Notitia-Desk-mac-intel.zip**](https://github.com/saudade-lab/notitia-desk/releases/latest/download/Notitia-Desk-mac-intel.zip) |
 
 Ton Mac a quelle puce ? Menu  › *À propos de ce Mac*.
 
@@ -150,8 +150,8 @@ Clique sur **Disposition** en haut du desk :
 <details open>
 <summary><b>🪟 Windows (2 min)</b></summary>
 
-1. Dézippe le dossier `MRKT-ia` où tu veux (par exemple sur le Bureau).
-2. Double-clique sur **MrktIaWatcher.exe**. Si Windows affiche « Windows a protégé votre ordinateur », clique sur *Informations complémentaires* → *Exécuter quand même*.
+1. Dézippe le dossier `Notitia-Desk` où tu veux (par exemple sur le Bureau).
+2. Double-clique sur **NotitiaDesk.exe**. Si Windows affiche « Windows a protégé votre ordinateur », clique sur *Informations complémentaires* → *Exécuter quand même*.
 3. Ouvre **http://localhost:5057** dans ton navigateur (ou double-clique sur *Ouvrir-Dashboard*).
 
 Le fichier **LISEZMOI.txt** du dossier explique le reste : notifs sur téléphone, IA, NinjaTrader.
@@ -160,9 +160,9 @@ Le fichier **LISEZMOI.txt** du dossier explique le reste : notifs sur téléphon
 <details>
 <summary><b>🍎 Mac (3 min)</b></summary>
 
-1. Double-clique sur le zip : un dossier `MRKT-ia` apparaît. Range-le où tu veux (par exemple dans Documents).
+1. Double-clique sur le zip : un dossier `Notitia-Desk` apparaît. Range-le où tu veux (par exemple dans Documents).
 2. **Première fois seulement** : ouvre l'app **Terminal**, tape `bash ` (avec un espace), glisse le fichier `lancer.sh` du dossier dans la fenêtre, puis Entrée. Ça débloque l'app (macOS bloque les apps qui ne viennent pas de l'App Store) et ça la lance.
-3. Les fois suivantes : double-clique sur **Lancer MRKT.command**.
+3. Les fois suivantes : double-clique sur **Lancer Notitia.command**.
 4. Le desk s'ouvre sur **http://localhost:5057**.
 
 Sur Mac, les prix viennent de Yahoo Finance (différés d'environ 10 min), car NinjaTrader n'existe pas sur Mac.
@@ -173,9 +173,9 @@ Sur Mac, les prix viennent de Yahoo Finance (différés d'environ 10 min), car N
 
 Le desk tourne sur ton PC, et ton téléphone l'affiche dans son navigateur.
 
-1. Dans le `appsettings.json` de MRKT, mets `"DashboardLan": true`, lance **Autoriser-reseau.bat** une fois (clic droit → *Exécuter en tant qu'administrateur*), puis relance MRKT.
+1. Dans le `appsettings.json` de Notitia, mets `"DashboardLan": true`, lance **Autoriser-reseau.bat** une fois (clic droit → *Exécuter en tant qu'administrateur*), puis relance Notitia.
 2. **À la maison (même wifi)** : ouvre sur ton tel l'adresse affichée en bas du desk (« Sur ton tel : même wifi … »).
-3. **Partout (4G)** : installe [Tailscale](https://tailscale.com/download) (gratuit) sur le PC et sur le tel, connecte-les au même compte, relance MRKT et ouvre l'adresse « partout (Tailscale) ».
+3. **Partout (4G)** : installe [Tailscale](https://tailscale.com/download) (gratuit) sur le PC et sur le tel, connecte-les au même compte, relance Notitia et ouvre l'adresse « partout (Tailscale) ».
 4. Ajoute la page à l'écran d'accueil pour l'ouvrir comme une appli.
 </details>
 
@@ -185,7 +185,7 @@ Elles sont automatiques : quand une nouvelle version sort, un bandeau apparaît 
 ---
 
 <div align="center">
-<sub>© 2026 Alexandre (saudade-lab) · BloomBerk / MRKT.ia · tous droits réservés.<br>
+<sub>© 2026 Alexandre (saudade-lab) · Notitia Desk · tous droits réservés.<br>
 Usage personnel uniquement : ne pas revendre, redistribuer ou modifier sans accord.<br>
 <b>Ce n'est pas un conseil financier.</b> Le trading de futures comporte un risque de perte en capital.</sub>
 </div>
