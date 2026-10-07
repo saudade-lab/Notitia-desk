@@ -1,6 +1,100 @@
 {
-  "updated": "2026-10-06T11:55:57Z",
+  "updated": "2026-10-07T05:56:30Z",
   "recaps": [
+    {
+      "id": "2026-10-07-08",
+      "slot": "8h",
+      "at": "2026-10-07T05:56:30Z",
+      "titre": "Pétrole et taux remontent, tout le monde attend les minutes",
+      "resume": "Wall Street a encore signé des records hier (S&P 500 +0,58 %, Nasdaq +0,45 %, Dow +0,49 % à 51 521), portée par Nvidia et AMD au plus haut historique, Marvell (~+8 % après avoir relevé son objectif de CA FY2028 à 20 Md$) et Constellation Energy (+13 % sur son accord nucléaire de 4,3 Md$ avec Google). Mais l'Asie refroidit ce matin (Nikkei -0,9 %, Hang Seng -0,6 %, tech coréenne et hongkongaise en tête des baisses) : le pétrole repart (WTI ~90,4 $, Brent ~101,6 $, +1 %) sur des frappes houthies revendiquées contre l'Arabie saoudite, des attaques iraniennes de tankers près d'Ormuz et un ouragan qui menace le golfe du Mexique. Du coup le 10 ans US remonte vers 5,30-5,31 %, le dollar se raffermit (DXY ~102,07, USD/JPY ~158,4, EUR/USD ~1,123) et l'or recule vers 4 165 $ malgré un 23e mois d'achats de la banque centrale chinoise. Les futures US ont rendu leurs gains d'Asie (ES ~+0,1 %) et l'Europe est attendue en baisse (Euro Stoxx 50 fut. -0,6 %, DAX -0,55 %). Le gros rendez-vous est à 20h : minutes du FOMC de septembre (hausse de 25 pb), avec l'adjudication 10 ans à 19h01 et Waller, Kashkari, Musalem et Bowman au micro.",
+      "nq": {
+        "biais": "neutre",
+        "points": [
+          "Momentum intact : double record S&P/Nasdaq hier, Nvidia et AMD au plus haut, flux IA (Marvell, Constellation/Google) toujours porteurs",
+          "Mais le contexte macro se retend : pétrole à nouveau >100 $ (Brent) et 10 ans US revenu vers 5,31 %, au plus haut depuis 24 ans",
+          "Futures qui ont rendu leurs gains en Asie et Europe attendue en baisse : ouverture probablement hésitante",
+          "Binaire en soirée : minutes du FOMC (20h) et adjudication 10 ans de 39 Md$ (19h01) ; marché qui ne price plus que ~20 % de hausse en octobre mais ~85 % d'ici décembre"
+        ]
+      },
+      "gc": {
+        "biais": "baissier",
+        "points": [
+          "Dollar qui se raffermit (DXY ~102,07, +0,16 %) et taux US qui remontent : double vent contraire",
+          "Or spot vers 4 165 $ ce matin après une séance en repli hier (-0,4 %), pas loin de ses plus bas de deux mois",
+          "Soutien de fond : 23e mois consécutif d'achats d'or par la PBoC (réserves ~77,5 M d'onces) et tensions Houthis/Iran au Moyen-Orient",
+          "Des minutes jugées faucons ce soir (hausses supplémentaires) pèseraient encore ; un ton plus prudent soulagerait"
+        ]
+      },
+      "agenda": [
+        {
+          "heure": "08:00 (Paris)",
+          "evenement": "EUR – Production industrielle allemande (août)",
+          "enjeu": "prévu +0,5 % / précédent -1,1 %. Un rebond raté pèserait encore sur l'Europe déjà attendue en baisse"
+        },
+        {
+          "heure": "16:30 (Paris)",
+          "evenement": "USD – Stocks de pétrole EIA",
+          "enjeu": "pétrole déjà >90 $ (WTI) ; une baisse des stocks + l'ouragan dans le golfe = pétrole plus haut, taux plus hauts, négatif NQ"
+        },
+        {
+          "heure": "19:01 (Paris)",
+          "evenement": "USD – Adjudication 10 ans (39 Md$)",
+          "enjeu": "10 ans vers 5,30 %, plus haut depuis 24 ans. Demande faible (queue) = taux en hausse, négatif NQ et or ; l'adjudication 3 ans d'hier s'est bien passée"
+        },
+        {
+          "heure": "20:00 (Paris)",
+          "evenement": "Fed – Minutes du FOMC (15-16 septembre)",
+          "enjeu": "réunion de la hausse de 25 pb. Le marché cherche combien de membres veulent encore monter : ton faucon = dollar et taux en hausse, négatif NQ et or ; ton prudent = soulagement"
+        },
+        {
+          "heure": "21:00 (Paris)",
+          "evenement": "Fed – Michelle Bowman (régulation, ratio eSLR)",
+          "enjeu": "thème réglementaire bancaire ; hier elle n'a pas parlé de politique monétaire"
+        },
+        {
+          "heure": "21:00 (Paris)",
+          "evenement": "USD – Crédit à la consommation (août)",
+          "enjeu": "impact faible en général"
+        },
+        {
+          "heure": "horaire non confirmé",
+          "evenement": "Fed – Waller, Kashkari, Musalem",
+          "enjeu": "les premières réactions publiques aux chiffres d'emploi plus mous ; un discours sur la poursuite des hausses ferait remonter les taux"
+        }
+      ],
+      "earnings": [
+        {
+          "societe": "Aucun gros poids du Nasdaq-100 aujourd'hui",
+          "quand": "avant ouverture",
+          "enjeu": "journée vide côté gros poids ; la saison des résultats démarre vraiment avec les banques la semaine prochaine, puis Tesla (21/10) et Intel (22/10)"
+        },
+        {
+          "societe": "Constellation Brands (hors Nasdaq-100)",
+          "quand": "après clôture",
+          "enjeu": "publié hier soir : BPA 3,74 $ vs 3,61 $ attendu, CA 2,63 Md$ vs 2,54 Md$, mais guidance BPA FY2027 (11,20-11,90 $) un peu sous le consensus (11,72 $) : thermomètre conso"
+        },
+        {
+          "societe": "PepsiCo (Nasdaq-100)",
+          "quand": "avant ouverture",
+          "enjeu": "attendu en fin de semaine (date exacte à confirmer) avec Delta (9/10) : premier test conso/marges du T3, CA attendu en hausse de ~4,3 % sur un an"
+        }
+      ],
+      "risques": [
+        "Escalade au Moyen-Orient (Houthis contre l'Arabie saoudite, tankers attaqués près d'Ormuz) + ouragan dans le golfe : pétrole qui s'emballe = taux en hausse et pression sur les valorisations tech",
+        "Minutes du FOMC ou Fedspeak plus faucons que prévu qui relancent les paris d'une hausse dès octobre (aujourd'hui ~20 %)",
+        "Adjudication 10 ans mal reçue qui pousse le 10 ans au-dessus de ses plus hauts de 24 ans (5,31 %)"
+      ],
+      "sources": [
+        "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html",
+        "https://www.investing.com/news/economy-news/asia-shares-weaker-oil-up-investors-weigh-saudihouthi-escalation-4935555",
+        "https://investing.com/news/economy-news/dollar-holds-losses-as-markets-await-fed-minutes-speakers-4935511",
+        "https://investinglive.com/news/investinglive-asia-pacific-market-news-saudi-houthi-attacks-and-gulf-storm-lift-oil/",
+        "https://features.financialjuice.com/2026/10/07/stock-rally-stalls-in-asia-bonds-dip-as-oil-gains-asia-market-wrap/",
+        "https://1027wbow.com/2026/10/07/morning-bid-whos-the-boss/",
+        "https://investinglive.com/news/week-ahead-ism-services-fed-minutes-and-canadian-jobs-lead-the-economic-calendar-be-aware/",
+        "https://www.federalreserve.gov/newsevents/2026-october.htm"
+      ]
+    },
     {
       "id": "2026-10-06-14",
       "slot": "14h",
