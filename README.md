@@ -11,7 +11,7 @@ Les news qui comptent, notées et expliquées en temps réel. Le calendrier éco
 ![Gratuit](https://img.shields.io/badge/prix-gratuit-3FB27F)
 ![Sans compte](https://img.shields.io/badge/compte-aucun-6C7385)
 
-<img src="docs/desk.png" alt="Notitia Desk : bandeaux Trump et Fed, globe des news avec le fil d'un côté et les 5/5 de l'autre" width="100%">
+<img src="docs/notitia-desk.png" alt="Notitia Desk : bandeaux Trump et Fed, globe des news avec le fil d'un côté et les 5/5 de l'autre" width="100%">
 
 </div>
 
