@@ -1,0 +1,77 @@
+[
+  {
+    "id": "world",
+    "title": "World · globe et news",
+    "image": "images/world.jpg"
+  },
+  {
+    "id": "pouls-marche",
+    "title": "Pouls du marché",
+    "image": "images/pouls-marche.jpg"
+  },
+  {
+    "id": "hebdo",
+    "title": "Hebdo",
+    "image": "images/hebdo.jpg"
+  },
+  {
+    "id": "fil-news",
+    "title": "Fil de news",
+    "image": "images/fil-news.jpg"
+  },
+  {
+    "id": "synthese",
+    "title": "Synthèse IA et récaps",
+    "image": "images/synthese.jpg"
+  },
+  {
+    "id": "taux-directeurs",
+    "title": "Taux directeurs",
+    "image": "images/taux-directeurs.jpg"
+  },
+  {
+    "id": "calendrier",
+    "title": "Calendrier économique",
+    "image": "images/calendrier.jpg"
+  },
+  {
+    "id": "macro-us",
+    "title": "Environnement macro US",
+    "image": "images/macro-us.jpg"
+  },
+  {
+    "id": "probabilites",
+    "title": "Kalshi / Polymarket",
+    "image": "images/probabilites.jpg"
+  },
+  {
+    "id": "biais-nq-gc",
+    "title": "Biais NQ / GC",
+    "image": "images/biais-nq-gc.jpg"
+  },
+  {
+    "id": "marches-mondiaux",
+    "title": "Marchés mondiaux",
+    "image": "images/marches-mondiaux.jpg"
+  },
+  {
+    "id": "earnings",
+    "title": "Earnings Nasdaq",
+    "image": "images/earnings.jpg"
+  },
+  {
+    "id": "carte-nasdaq",
+    "title": "Carte Nasdaq-100",
+    "image": "images/carte-nasdaq.jpg"
+  },
+  {
+    "id": "calendrier-alerte",
+    "title": "Calendrier · compte à rebours",
+    "image": "images/calendrier-alerte.jpg"
+  },
+  {
+    "id": "calendrier-details",
+    "title": "Calendrier · fiche et scénarios",
+    "image": "images/calendrier-details.jpg"
+  }
+]

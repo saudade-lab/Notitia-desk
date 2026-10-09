@@ -1,213 +1,116 @@
-<div align="center">
-
 # Notitia Desk
 
-**Ton terminal de marché perso pour trader le Nasdaq (NQ) et l'or (GC).**
-Les news qui comptent, notées et expliquées en temps réel. Le calendrier éco, les banques centrales, le risque du moment et le bilan de chaque semaine, chacun à sa place dans un seul desk.
+**Les news, la macro et la géopolitique réunies dans un desk pour NQ et GC.**
 
-[![Dernière version](https://img.shields.io/github/v/release/saudade-lab/notitia-desk?label=version&color=8B7CF6)](https://github.com/saudade-lab/notitia-desk/releases/latest)
-![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?logo=windows&logoColor=white)
-![macOS](https://img.shields.io/badge/macOS-Apple%20%2B%20Intel-111?logo=apple&logoColor=white)
-![Gratuit](https://img.shields.io/badge/prix-gratuit-3FB27F)
-![Sans compte](https://img.shields.io/badge/compte-aucun-6C7385)
+Notitia Desk collecte les informations de plusieurs sources, les classe par importance et explique ce qu’elles peuvent changer pour le Nasdaq-100 (**NQ**) et les futures Gold (**GC**). Le dashboard s’ouvre dans votre navigateur, avec un globe interactif et des pages consacrées aux marchés, au calendrier et aux entreprises.
 
-<img src="docs/desk-world.png" alt="Notitia Desk : le menu ouvert avec toutes les pages, le globe au centre, le fil de news à gauche et les news 5/5 à droite" width="100%">
+La veille et le classement par règles fonctionnent sans clé API. L’IA est optionnelle : locale avec Ollama ou connectée au fournisseur de votre choix, selon ses conditions et tarifs.
 
-</div>
+![Notitia Desk — World, globe et fil de news](docs/images/world-globe.jpg)
 
----
+*Captures réalisées avec le mode aperçu : chiffres, news et analyses de démonstration, sans valeur de cotation ni d’actualité réelle.*
 
-## Télécharger
+**[Télécharger la dernière version](https://github.com/saudade-lab/notitia-desk/releases/latest)** · **[Visite visuelle complète](docs/demo.html)** · **[Galerie des pages](docs/GALERIE.md)**
 
-| | |
+## Découvrir le desk
+
+![Visite animée des treize pages de Notitia Desk](docs/images/notitia-tour.gif)
+
+L’animation parcourt les treize pages principales. Pour choisir une page et avancer à votre rythme, ouvrez **`docs/demo.html`** dans votre navigateur après avoir téléchargé le dossier. La visite est une présentation interactive de captures, pas une application connectée aux marchés. Sur GitHub, utilisez la [galerie](docs/GALERIE.md) : le fichier HTML n’y est pas exécuté.
+
+## Ce que vous pouvez suivre
+
+| Page | Ce qu’elle apporte |
 |---|---|
-| **Windows** | [**Notitia-Desk.zip**](https://github.com/saudade-lab/notitia-desk/releases/latest/download/Notitia-Desk.zip) |
-| **Mac puce Apple** (M1, M2, M3, M4…) | [**Notitia-Desk-mac-arm64.zip**](https://github.com/saudade-lab/notitia-desk/releases/latest/download/Notitia-Desk-mac-arm64.zip) |
-| **Mac Intel** | [**Notitia-Desk-mac-intel.zip**](https://github.com/saudade-lab/notitia-desk/releases/latest/download/Notitia-Desk-mac-intel.zip) |
+| **World** | Globe 3D, fil de news et événements majeurs sur les côtés. |
+| **Pouls du marché** | Risque, volatilité, régime macro et changements récents. |
+| **Hebdo** | Vue de la semaine, rapports et contexte des banques centrales. |
+| **Fil de news** | Classement, filtres par sujet et actif, source et détails de chaque information. |
+| **Synthèse IA et récaps** | Synthèses du desk et récaps partagés du matin, de l’après-midi et de la semaine. |
+| **Taux directeurs** | Décisions, contexte et suivi des grandes banques centrales. |
+| **Calendrier économique** | Attendu, précédent, réel, scénarios et rapports de publication. |
+| **Environnement macro US** | Inflation, emploi, croissance et contexte monétaire. |
+| **Kalshi / Polymarket** | Probabilités de marchés de prédiction, selon la disponibilité des services. |
+| **Biais NQ / GC** | Orientation du desk et explication des informations qui la composent. |
+| **Marchés mondiaux** | Indices, devises, taux et matières premières. |
+| **Earnings Nasdaq** | Résultats d’entreprises importantes du Nasdaq, dates et détails disponibles. |
+| **Carte Nasdaq-100** | Vue des valeurs qui soutiennent ou pèsent sur l’indice. |
 
-Ton Mac a quelle puce ? Menu Pomme › *À propos de ce Mac*.
+### Repérer ce qui compte
 
-Pas d'installation compliquée ni de compte à créer : tu dézippes, tu lances, et le desk s'ouvre dans ton navigateur. Les liens ci-dessus donnent toujours la dernière version.
+Les news **5/5 ressortent en rouge**, les **4/5 en orange**. Les filtres permettent de suivre NQ, GC, les deux actifs ou un sujet : macro, banques centrales, géopolitique, entreprises…
 
----
+Le desk rapproche les doublons entre sources. Au démarrage, les informations déjà en ligne remplissent le dashboard sans déclencher une rafale d’alertes ; les nouvelles informations peuvent ensuite alerter selon vos seuils.
 
-## Comment c'est organisé
+Une news reçue apparaît directement dans le dashboard. L’envoi des notifications est séparé de la collecte pour que les alertes ne ralentissent pas l’arrivée des autres sources.
 
-Le desk s'ouvre sur le **globe** avec les news. Chaque sujet a ensuite sa propre page, dans le menu à gauche. Le menu reste discret (juste des icônes) : tire la petite languette ou clique sur le bouton du haut pour l'élargir et voir le nom et la description de chaque page.
+### Le calendrier, avant et après le chiffre
 
-| Section | Pages |
-|---|---|
-| **Intelligence** | World (globe et news) · Pouls du marché · Hebdo · Fil de news · Synthèse IA |
-| **Macro** | Taux directeurs · Calendrier éco · Macro US · Paris (Kalshi / Polymarket) |
-| **Marchés** | Biais NQ / Or · Marchés mondiaux · Earnings · Carte Nasdaq |
+**Cinq minutes avant** une publication économique importante, un popup apparaît sur World et le desk avec le compte à rebours. Cliquez pour retrouver le chiffre attendu, le précédent et les scénarios possibles.
 
-Le bouton **Mode trading** en haut ouvre ton écran trading : tu choisis toi-même ce qu'il affiche (globe, news, pouls du marché…).
+**Dès réception du résultat**, le desk affiche le réel et, pour les publications US prises en charge, une première analyse par règles : surprise face au consensus, lecture Fed et implications possibles pour NQ et GC. Une analyse IA peut compléter la fiche lorsqu’elle est disponible.
 
----
+**Une minute après l’heure prévue**, le popup disparaît. Le résultat et le rapport restent consultables dans le calendrier, y compris lorsqu’ils arrivent en retard.
 
-## Les pages
+![Compte à rebours avant une publication économique](docs/images/calendrier-alerte.jpg)
 
-### World : le globe au centre, les news autour
-La page de base. Une Terre en 3D (vrai jour, vraie nuit) qui tourne toute seule vers l'endroit où une grosse news vient de tomber (Iran, Ormuz, Chine, Ukraine…).
-- **D'un côté, les news 5/5** : les vrais market movers, avec le lieu, l'heure et l'effet NQ / or.
-- **De l'autre, tout le fil de news** analysé, que tu fais défiler et filtres en un clic (NQ, Or, 3/5 et +, Macro & Fed, Géopolitique, Santé, Sociétés…).
-- Tu choisis où vont les 5/5 : à gauche, à droite, ou « Fil à part ».
+### Des récaps communs à tous
 
-Quand une nouvelle 5/5 tombe, sa **fiche complète** s'ouvre à côté : la source et les sources qui la confirment, l'effet NQ / or, le pourquoi, ce qu'il faut surveiller, la réaction du marché dans les minutes qui suivent et l'analyse IA.
+Les récaps français partagés couvrent les marchés et la géopolitique : **8 h et 14 h du lundi au vendredi**, plus un **récap hebdomadaire**, en heure de Paris. Ils sont distribués séparément des mises à jour de l’application. Les faits sont distingués des scénarios et accompagnés de sources.
 
-<img src="docs/hub-fiche.png" alt="La fiche complète d'une news 5/5 à côté du globe" width="100%">
+## Commencer
 
-### Pouls du marché : où en est le marché, en chiffres
-Tout ce qu'il faut savoir avant de prendre une position, sur une page :
-- **La synthèse du moment** et **ce qui a changé en 24 h** (risque, VIX, 10 ans, probabilités Fed, biais).
-- **Les chiffres du moment** : NQ, S&P 500, VIX, dollar, taux US, or, euro, yen, Brent, argent, bitcoin, avec la variation du jour, sur 24 h et une mini-courbe. La source et l'heure du dernier prix sont indiquées.
-- **La courbe des taux US** (10 ans − 5 ans, 30 ans − 10 ans) et ce qu'elle veut dire.
-- **Le score de risque sur 100**, calculé à partir du VIX, de la géopolitique, des taux, du biais NQ et de l'agenda. Chaque composante affiche sa vraie valeur et son poids, avec l'historique sur 30 jours.
-- **Le régime macro** (inflation × croissance) avec les derniers chiffres US.
-- **Le biais du desk** NQ / or et les news qui pèsent le plus.
+### Version prête à lancer
 
-<img src="docs/pouls.png" alt="Pouls du marché : synthèse, ce qui a changé, chiffres du moment, VIX, score de risque, régime macro" width="100%">
+1. Téléchargez l’archive correspondant à votre système dans les [releases](https://github.com/saudade-lab/notitia-desk/releases/latest).
+2. Décompressez-la dans un dossier et suivez le fichier `LISEZMOI` fourni.
+3. Sous Windows, lancez **`NotitiaDesk.exe`** et laissez la fenêtre du moteur ouverte ou réduite.
+4. Le dashboard s’ouvre dans le navigateur, habituellement à **http://localhost:5057**. Si ce port est occupé, utilisez l’adresse indiquée au lancement.
 
-### Hebdo : le bilan de chaque semaine, gardé en mémoire
-- **Le bilan de la semaine**, écrit automatiquement par le desk : risque moyen et pic, performance du NQ, de l'or et du dollar (début → fin, plus haut, plus bas), 10 ans, VIX, thème dominant, décisions de banques centrales et chiffres hors consensus.
-- **Toutes les news 5/5 de la semaine**, classées par jour, avec leur explication et leur effet NQ / or. Elles sont gardées en mémoire (environ 13 mois) : tu cliques sur une semaine passée et tu retrouves son bilan et ses 5/5.
-- **Le jour par jour** (risque, biais NQ et or) et **les chiffres de la semaine** (inflation, emploi, PIB, ISM, décisions de taux, US et zone euro) avec publié / prévu / avant et la surprise.
-- Pour la semaine en cours : **ce qui arrive la semaine prochaine** (réunions de banques centrales, gros chiffres) et les plus forts / plus faibles des marchés.
-- Les **rapports hebdo** rédigés s'affichent en tête de leur semaine.
+Les distributions autonomes évitent d’installer .NET séparément. Les archives Mac, lorsqu’elles sont présentes dans la release, distinguent Apple Silicon et Intel.
 
-<img src="docs/hebdo.png" alt="Hebdo : bilan de la semaine, performance NQ / or / dollar, liste des semaines, détail jour par jour" width="100%">
+### Depuis les sources
 
-### Taux directeurs : les 8 grandes banques centrales
-Fed, BCE, BoJ, BoE, BNS, BoC, RBA et RBNZ en cartes : taux actuel, dernière décision, compte à rebours jusqu'à la prochaine réunion, ton de leurs communiqués. Pour la Fed : les probabilités du marché pour la prochaine réunion et le biais de chaque membre du comité.
+Avec le SDK .NET 8 installé, lancez `Lancer-Notitia.bat` sous Windows, ou exécutez :
 
-Un clic sur une banque ouvre **sa fiche** :
-- son mandat et sa cible d'inflation ;
-- **la vision du desk** : où en est l'inflation par rapport à la cible, cycle de hausses ou de baisses, ton récent ;
-- **l'historique des taux** en graphique et réunion par réunion ;
-- **les chiffres qu'elle surveille** (inflation, inflation cœur, chômage…) avec publié, prévu, l'écart à la cible et une mini-courbe ;
-- ce qui sort dans les 14 jours et ses derniers communiqués.
+```sh
+dotnet run -c Release
+```
 
-<img src="docs/taux.png" alt="Taux directeurs : cartes des banques centrales et fiche de la BCE" width="100%">
+Pour découvrir l’interface avec des données d’exemple :
 
-### Biais NQ / Or : le sens du marché, expliqué
-Le biais du NQ et de l'or sur une jauge, avec les news qui poussent à la hausse et celles qui poussent à la baisse, et leur poids. En dessous, la lecture de la synthèse : clique sur le biais pour voir comment il est calculé, ou sur une ligne pour retrouver la news d'origine, pourquoi elle pèse et **comment le marché a vraiment réagi** (5 et 15 min). Avec ce qui arrive et les risques à surveiller.
+```sh
+dotnet run -c Release -- --preview
+```
 
-<img src="docs/biais.png" alt="Biais NQ / Or : jauges, news haussières et baissières, explication détaillée d'un point" width="100%">
+L’aperçu ne représente pas les marchés réels. Ne lancez pas une seconde instance de veille sur le même poste pour accélérer les flux.
 
-### Synthèse IA et récaps du desk
-Une note de marché à lire en 30 secondes avant de trader : le thème du moment, le régime macro (inflation, chômage, Fed, 10 ans) et le résumé. Juste en dessous, **le récap du desk** de 8 h et 14 h, en entier : NQ, or, agenda, earnings et risques.
-- **Sans IA**, le desk écrit la synthèse lui-même à partir de ses données, en continu.
-- **Avec une IA**, elle est rédigée par l'IA toutes les heures (voir plus bas).
+## IA, prix et notifications
 
-<img src="docs/synthese.png" alt="Synthèse du marché et récap du desk" width="100%">
+- **Mon IA** : le menu IA du dashboard permet de choisir un fournisseur, un modèle et de tester la connexion. Chaque utilisateur emploie sa propre clé. Ollama permet une analyse locale ; les services externes peuvent facturer leur utilisation.
+- **Prix NQ / GC** : le pont NinjaTrader est optionnel pour recevoir les prix depuis vos graphiques. Sans lui, les prix de secours peuvent être différés ; regardez leur source et leur horodatage.
+- **Alertes** : notifications Windows et son sur le PC ; ntfy et Discord sont optionnels et se configurent individuellement. Le seuil du téléphone peut être différent de celui du PC.
 
-### Calendrier éco US, Europe et Asie
-Le **prochain chiffre clé** est en haut avec son compte à rebours, suivi des prochains gros chiffres. Un clic sur un événement ouvre sa fiche juste en dessous :
-- avant le chiffre : le prévu, le précédent, **les scénarios** (au-dessus / en ligne / en dessous → effet NQ et or) et **les dernières publications** ;
-- après le chiffre : le réel, la surprise, la lecture Fed et la réaction du marché à 1, 5 et 15 min.
+Les premières lectures par règles et les analyses IA sont distinctes. Une analyse IA plus longue ne signifie pas que le résultat économique n’a pas encore été reçu.
 
-<img src="docs/calendrier.png" alt="Calendrier éco : prochain chiffre clé et fiche d'un chiffre" width="100%">
+## Rapidité des flux et mises à jour
 
-### Marchés, macro et earnings
-- **Marchés mondiaux** : indices Europe / Asie / US, devises, taux, matières premières et bitcoin, avec les variations sur 5 min, 24 h et 48 h. Un clic sur une ligne ouvre ses stats sur 1 an.
-- **Carte du Nasdaq-100** : quels titres tirent ou plombent le NQ, en points d'indice.
-- **Macro US** : inflation, PCE, chômage, PIB, taux Fed, 10 ans… avec la courbe et les stats au clic, et une lecture « en clair » pour le NQ et l'or.
-- **Earnings** des gros poids du Nasdaq, semaine par semaine, avec la fiche de chaque société : attentes, derniers trimestres et santé de la boîte.
-- **Paris** : ce que parie le marché sur Kalshi / Polymarket (décision Fed, CPI, récession…).
+Chaque source conserve sa propre cadence. Les flux rapides sont interrogés plus souvent que les flux qui imposent des limites. FinancialJuice respecte son cache, les délais annoncés par le serveur et un ralentissement progressif en cas de refus. Le desk ne peut pas afficher une information que la source n’a pas encore rendue disponible.
 
-<img src="docs/marches.png" alt="Marchés mondiaux" width="100%">
-<img src="docs/heatmap.png" alt="Carte du Nasdaq-100" width="100%">
-<img src="docs/earnings.png" alt="Earnings du Nasdaq-100" width="100%">
+Les versions distribuées recherchent normalement les mises à jour environ **toutes les deux minutes**. Quand une nouvelle version est détectée, une installation automatique est proposée après un compte à rebours de **30 secondes**, avec possibilité de la reporter. Le moteur redémarre brièvement puis le dashboard recharge la nouvelle version ; vous n’avez pas à fermer tout le desk manuellement.
 
----
+La version de développement sur le poste de maintenance conserve son fonctionnement distinct : **les mises à jour de l’application sont publiées manuellement par le mainteneur depuis son PC**.
 
-## Sous le capot
+## Confidentialité et partage
 
-### Un moteur de notation qui apprend du marché
-Les notes /5 viennent d'un moteur de règles spécialisé macro. Il n'a pas besoin d'IA et réagit instantanément :
-- **La surprise compte, pas le chiffre** : un CPI à +0,1 point au-dessus du consensus est une vraie surprise, un NFP à +20K c'est du bruit.
-- **Vérifié par le marché** : 10 min après chaque news importante, le desk regarde si le NQ et l'or ont bougé dans le sens annoncé. Les news contredites pèsent moins dans le biais.
-- **Il apprend** : un type de news souvent contredit ces dernières semaines est noté plus prudemment.
-- **Rumeurs et démentis** valent moins qu'une annonce officielle. La même info confirmée par 3 sources monte d'un cran.
+Les clés ajoutées via **Mon IA** sont conservées dans l’espace local de l’utilisateur. Les notifications et les fournisseurs IA externes reçoivent les informations nécessaires à la fonctionnalité choisie : les traitements ne sont donc pas tous locaux lorsque ces options sont activées.
 
-Les sources : FinancialJuice, investingLive, Walter Bloomberg, Truth Social, CNBC, Fed, BCE, BoJ, BoE, BNS, BoC, RBA, et les sources géopolitiques et santé (épidémies).
+Les distributions sont préparées et publiées par le mainteneur, après vérification des archives. Les utilisateurs téléchargent les versions disponibles et reçoivent leurs mises à jour dans le desk. Les outils de publication et la clé GitHub du mainteneur ne sont pas inclus dans les distributions. **Ne partagez pas directement votre dossier de travail**, votre configuration personnelle, les caches, journaux, tokens ou webhooks.
 
-### Les alertes qui comptent vraiment
-- **Focus Trump / Fed / BCE / BoJ** : un post important de Trump, un communiqué de la Fed ou une décision de taux s'affiche en grand, avec la lecture marché.
-- **Zone rouge** : compte à rebours avant les gros chiffres US (CPI, NFP, PCE, ISM…).
-- **« Pendant ton absence »** : si ton PC était éteint, un récap des annonces manquées t'attend.
-- **Notifs sur ton téléphone** (appli ntfy) et **lecture à voix haute** en option.
-- **Directs Trump et Fed** : colle le lien d'un direct YouTube, le desk le transcrit, sort les phrases clés qui touchent l'économie et fait un récap à la fin.
+Les images de ce README viennent d’un aperçu isolé avec des données fictives. La visite visuelle ne demande aucun compte et n’utilise aucune clé.
 
-### L'IA (optionnelle) : un stratégiste macro qui ne s'invente rien
-- **Synthèse du marché** toutes les heures, avec un biais NQ et or.
-- **Analyse poussée** d'une news : le fait, la surprise, la lecture Fed, le canal (taux, dollar, risque, refuge), les scénarios NQ et or, ce qui les annulerait.
-- **Chiffres vérifiés** : chaque chiffre et chaque heure écrits par l'IA sont comparés aux données du desk. Un chiffre introuvable, c'est une phrase corrigée ou retirée, et le desk te le signale.
+## Usage
 
-Chacun branche **sa propre IA, avec sa propre clé**, dans le menu **Mon IA** (bouton IA en haut du desk → *Changer*) :
+Notitia Desk est un outil de veille. Les biais, scénarios, scores et probabilités ne constituent pas des recommandations d’investissement. Les données peuvent être retardées ou indisponibles ; consultez les sources, les horaires et les résultats réels.
 
-| IA | Prix indicatif | Pour qui |
-|---|---|---|
-| **Ollama** | gratuit | tourne sur ton PC, sans clé (`Installer-IA.bat`) ; lent sur un petit PC |
-| **DeepSeek** | quelques centimes / jour | rapide et très peu cher |
-| **Claude** (Anthropic) | Haiku : centimes / jour | très bon en analyse et en français |
-| **OpenAI** (GPT) | modèles « mini » : centimes / jour | prends un « mini » pour le desk |
-| **Mistral** | petits modèles : centimes / jour | IA française |
-| **Groq** | palier gratuit limité | ultra rapide |
-| **OpenRouter** | selon le modèle | une seule clé pour presque toutes les IA |
-
-Tu colles ta clé, tu choisis le modèle dans la liste, tu cliques sur **Tester et utiliser** : ça bascule tout de suite, sans redémarrer. Ta clé reste sur ton PC (dossier AppData) : jamais dans le dossier de l'app, le zip ou GitHub.
-
-Les alertes et les notes /5 ne dépendent jamais de l'IA : elles restent instantanées, même sans clé.
-
-### Et aussi
-- **Écran trading à composer** : bouton **Mode trading**, puis **Disposition** pour déplacer, redimensionner ou retirer les panneaux.
-- **Sur ton téléphone** : le desk s'affiche aussi sur ton tel (voir plus bas).
-- **NinjaTrader 8** : prix en direct, réaction du marché à chaque news et vérification des lectures. Sans NinjaTrader, les prix viennent de Yahoo Finance (différés).
-
----
-
-## Installation
-
-<details open>
-<summary><b>Windows (2 min)</b></summary>
-
-1. Dézippe le dossier `Notitia-Desk` où tu veux (par exemple sur le Bureau).
-2. Double-clique sur **NotitiaDesk.exe**. Si Windows affiche « Windows a protégé votre ordinateur », clique sur *Informations complémentaires* → *Exécuter quand même*.
-3. Ouvre **http://localhost:5057** dans ton navigateur (ou double-clique sur *Ouvrir-Dashboard*).
-
-Le fichier **LISEZMOI.txt** du dossier explique le reste : notifs sur téléphone, IA, NinjaTrader.
-</details>
-
-<details>
-<summary><b>Mac (3 min)</b></summary>
-
-1. Double-clique sur le zip : un dossier `Notitia-Desk` apparaît. Range-le où tu veux (par exemple dans Documents).
-2. **Première fois seulement** : ouvre l'app **Terminal**, tape `bash ` (avec un espace), glisse le fichier `lancer.sh` du dossier dans la fenêtre, puis Entrée. Ça débloque l'app (macOS bloque les apps qui ne viennent pas de l'App Store) et ça la lance.
-3. Les fois suivantes : double-clique sur **Lancer Notitia.command**.
-4. Le desk s'ouvre sur **http://localhost:5057**.
-
-Sur Mac, les prix viennent de Yahoo Finance (différés d'environ 10 min), car NinjaTrader n'existe pas sur Mac.
-</details>
-
-<details>
-<summary><b>Sur ton téléphone</b></summary>
-
-Le desk tourne sur ton PC, et ton téléphone l'affiche dans son navigateur.
-
-1. Dans le `appsettings.json` de Notitia, mets `"DashboardLan": true`, lance **Autoriser-reseau.bat** une fois (clic droit → *Exécuter en tant qu'administrateur*), puis relance Notitia.
-2. **À la maison (même wifi)** : ouvre sur ton tel l'adresse affichée en bas du desk (« Sur ton tel : même wifi … »).
-3. **Partout (4G)** : installe [Tailscale](https://tailscale.com/download) (gratuit) sur le PC et sur le tel, connecte-les au même compte, relance Notitia et ouvre l'adresse « partout (Tailscale) ».
-4. Ajoute la page à l'écran d'accueil pour l'ouvrir comme une appli.
-</details>
-
-### Mises à jour
-Elles sont automatiques : quand une nouvelle version sort, un bandeau apparaît dans le desk. Un clic sur **Installer** et c'est fait, tes réglages sont gardés.
-
----
-
-<div align="center">
-<sub>© 2026 Alexandre (saudade-lab) · Notitia Desk · tous droits réservés.<br>
-Usage personnel uniquement : ne pas revendre, redistribuer ou modifier sans accord.<br>
-<b>Ce n'est pas un conseil financier.</b> Le trading de futures comporte un risque de perte en capital.</sub>
-</div>
+© 2026 saudade-lab — Notitia Desk. Tous droits réservés. Les composants tiers conservent leurs licences respectives.
