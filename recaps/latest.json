@@ -1,6 +1,51 @@
 {
   "recaps": [
     {
+      "id": "2026-10-09-14",
+      "slot": "14h",
+      "at": "2026-10-09T14:11:52.8849516+02:00",
+      "titre": "Préparation US : rebond fragile, GC soutenu, Michigan à 16 h",
+      "resume": "Le contexte du matin persiste : futures US en reprise et pétrole en repli. Les relevés ci-dessous sont horodatés, pas des cotations en direct à 14 h. L'agenda vérifié place Michigan à 16 h Paris ; aucun résultat n'est encore annoncé ici.",
+      "nq": {
+        "biais": "neutre",
+        "points": [
+          "Fait : AP signale une reprise des futures Nasdaq vendredi. Aucune cotation vérifiée du contrat NQ à 14 h n'est disponible dans les sources ouvertes ; aucun niveau NQ n'est publié.",
+          "Scénario : une détente durable du pétrole et des rendements pourrait soutenir la technologie. Un retour de la pression inflationniste pourrait fragiliser ce rebond.",
+          "Repère : Nasdaq composite, Nasdaq-100 et future NQ sont des instruments distincts ; aucune variation du composite n'est présentée comme celle de NQ."
+        ]
+      },
+      "gc": {
+        "biais": "haussier",
+        "points": [
+          "Fait : Reuters relève à 08 h 42 UTC, soit 10 h 42 Paris, le spot à 4 189,99 dollars l'once, +1,4 %. Le contrat à terme de décembre est indiqué à 4 215,30 dollars, +1,4 % ; il s'agit du relevé matinal, pas d'un cours actuel.",
+          "Depuis le récap du matin : le rebond est confirmé par Reuters, avec distinction explicite entre spot et future de décembre utilisé comme repère GC.",
+          "Lecture conditionnelle : le dollar moins ferme soutient le rebond. Reuters rappelle que les taux encore élevés et les risques inflationnistes limitent cette amélioration ; une hausse du dollar ou des rendements pourrait l'inverser."
+        ]
+      },
+      "agenda": [
+        "Vendredi 9 octobre : Michigan, enquête préliminaire d'octobre, à 10 h New York (EDT, UTC−4), soit 16 h Paris (CEST, UTC+2), selon la Fed de New York. Surveiller sentiment et anticipations d'inflation ; consensus non vérifié, donc omis.",
+        "New York Fed Staff Nowcast prévu à 12 h 45 New York, soit 18 h 45 Paris, selon le même calendrier. Horaires annoncés susceptibles de modification."
+      ],
+      "earnings": [
+        "AP rapporte un bénéfice trimestriel de Delta inférieur aux attentes et une réduction de sa prévision annuelle de bénéfice par action. Delta est cotée au NYSE, pas au Nasdaq.",
+        "Aucun calendrier de résultats précis des entreprises Nasdaq n'a été confirmé pour cet après-midi ; aucune date ni estimation n'est ajoutée."
+      ],
+      "risques": [
+        "Scénario : des anticipations d'inflation Michigan en hausse pourraient raviver la pression sur les taux et peser sur NQ et GC ; un chiffre faible de sentiment ne serait pas automatiquement favorable aux actifs risqués.",
+        "Les cotations matinales ne permettent pas d'affirmer que le mouvement continue au moment de publication.",
+        "La baisse du pétrole ne prouve pas une normalisation durable des approvisionnements."
+      ],
+      "geopolitique": [
+        "Reuters rapporte que Trump exclut une attaque contre l'Iran avant les élections américaines de mi-mandat du mois prochain, sur fond de discussions. C'est une déclaration rapportée, pas un accord de paix.",
+        "Scénario : une désescalade effective pourrait réduire la pression énergétique ; de nouveaux incidents pourraient inverser ce mouvement."
+      ],
+      "sources": [
+        "https://apnews.com/article/stocks-markets-oil-ai-bonds-5d0f953dbf96febb0690c1aef23fa8a9",
+        "https://uk.marketscreener.com/news/gold-adds-over-1-on-easing-oil-prices-softer-dollar-ce785ddfd18cff24",
+        "https://www.newyorkfed.org/research/calendars/i-oct26.html"
+      ]
+    },
+    {
       "id": "2026-10-09-08",
       "slot": "8h",
       "at": "2026-10-09T12:31:24+02:00",
