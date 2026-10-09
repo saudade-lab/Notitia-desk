@@ -10,13 +10,7 @@ La veille et le classement par règles fonctionnent sans clé API. L’IA est op
 
 *Captures réalisées avec le mode aperçu : chiffres, news et analyses de démonstration, sans valeur de cotation ni d’actualité réelle.*
 
-**[Télécharger la dernière version](https://github.com/saudade-lab/notitia-desk/releases/latest)** · **[Visite visuelle complète](docs/demo.html)** · **[Galerie des pages](docs/GALERIE.md)**
-
-## Découvrir le desk
-
-![Visite animée des treize pages de Notitia Desk](docs/images/notitia-tour.gif)
-
-L’animation parcourt les treize pages principales. Pour choisir une page et avancer à votre rythme, ouvrez **`docs/demo.html`** dans votre navigateur après avoir téléchargé le dossier. La visite est une présentation interactive de captures, pas une application connectée aux marchés. Sur GitHub, utilisez la [galerie](docs/GALERIE.md) : le fichier HTML n’y est pas exécuté.
+**[Télécharger la dernière version](https://github.com/saudade-lab/notitia-desk/releases/latest)** · **[Galerie des pages](docs/GALERIE.md)**
 
 ## Ce que vous pouvez suivre
 

@@ -1,6 +1,6 @@
 # Galerie de Notitia Desk
 
-[Retour au README](../README.md) · [Visite visuelle locale](demo.html)
+[Retour au README](../README.md)
 
 Ces captures sont des aperçus des pages de l’application, réalisés avec des données fictives. Les titres, cours et scénarios ne sont pas des informations de marché réelles.
 
