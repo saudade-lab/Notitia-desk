@@ -1,6 +1,48 @@
 {
   "recaps": [
     {
+      "id": "hebdo-2026-10-05-2026-10-09",
+      "slot": "hebdo",
+      "at": "2026-10-10T15:30:54+02:00",
+      "titre": "Bilan du 5 au 9 octobre : technologie hésitante, GC en rebond",
+      "resume": "Bilan rédigé samedi après les séances de vendredi. Le Nasdaq-100 termine une semaine globalement stable, avec un rebond vendredi. GC décembre progresse en fin de semaine. Inflation américaine et résultats seront les prochains catalyseurs.",
+      "nq": {
+        "biais": "Neutre / prudent",
+        "points": [
+          "Nasdaq décrit une semaine globalement stable pour le Nasdaq-100. Cet indice est distinct du Nasdaq Composite et du contrat NQ : aucune clôture NQ vérifiée n'est fournie.",
+          "Scénario : détente des rendements et apaisement géopolitique pourraient soutenir NQ ; inflation persistante et taux plus élevés pourraient peser sur les valorisations technologiques. Il s'agit d'une interprétation, pas d'une réaction garantie."
+        ]
+      },
+      "gc": {
+        "biais": "Rebond, prudent",
+        "points": [
+          "Reuters rapporte un règlement du contrat américain décembre à 4 216,30 dollars vendredi, en hausse de 1,4 % sur la séance.",
+          "Le spot atteignait 4 194,36 dollars à 21 h 29 Paris vendredi, avec environ +1,3 % sur la semaine à cet instant. Ce relevé n'est pas une clôture GC.",
+          "Scénario : détente des rendements favorable au métal ; inflation nécessitant davantage de hausses de taux susceptible de freiner le rebond."
+        ]
+      },
+      "agenda": [
+        "Semaine du 12 au 16 octobre, calendrier Nasdaq : mardi NFIB ; mercredi CPI ; jeudi ventes au détail, PPI et inscriptions au chômage ; vendredi production industrielle. Horaires non vérifiés, à confirmer dans le calendrier.",
+        "Lundi 12 octobre : marché obligataire américain au comptant fermé ; NYSE, Nasdaq et contrats Treasury CME ouverts, selon Newsquawk."
+      ],
+      "earnings": [
+        "ASML figure jeudi dans le calendrier Nasdaq. Date et horaire exacts à confirmer auprès de la société avant toute alerte."
+      ],
+      "risques": [
+        "Inflation, remontée des rendements, déceptions sur les résultats et perturbations énergétiques.",
+        "Aucune performance hebdomadaire des contrats NQ ou GC n'est déduite de celle des indices ou du spot."
+      ],
+      "geopolitique": [
+        "Selon Nasdaq, Trump a écarté une attaque contre l'Iran avant les élections de mi-mandat. Cela ne signifie pas la fin du conflit.",
+        "Newsquawk rapporte vendredi des menaces sur la navigation autour d'Ormuz et des signalements de mines à Bab el-Mandeb. Ces informations entretiennent le risque sur les approvisionnements et le pétrole."
+      ],
+      "sources": [
+        "https://www.nasdaq.com/economic-institute/chartstopper-100926",
+        "https://www.marketscreener.com/news/gold-hits-one-week-high-heads-for-weekly-gain-on-bargain-hunting-ce785ddcd881f024",
+        "https://www.newsquawk.com/headlines/newsquawk-us-market-wrap---stocks-ends-the-week-on-the-front-foot-as-risk-events-await"
+      ]
+    },
+    {
       "id": "2026-10-09-14",
       "slot": "14h",
       "at": "2026-10-09T14:11:52.8849516+02:00",
